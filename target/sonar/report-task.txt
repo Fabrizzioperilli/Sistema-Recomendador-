@@ -1,6 +1,6 @@
-projectKey=Recomendation-system
+projectKey=Sistema_Recomendador
 serverUrl=http://localhost:9000
-serverVersion=9.7.0.61563
-dashboardUrl=http://localhost:9000/dashboard?id=Recomendation-system
-ceTaskId=AYSl0x6sDEdQgXZQDo1m
-ceTaskUrl=http://localhost:9000/api/ce/task?id=AYSl0x6sDEdQgXZQDo1m
+serverVersion=9.6.1.59531
+dashboardUrl=http://localhost:9000/dashboard?id=Sistema_Recomendador
+ceTaskId=AYSuYbAQGMwwYHgBuWBL
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AYSuYbAQGMwwYHgBuWBL

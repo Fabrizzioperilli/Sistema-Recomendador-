@@ -1,0 +1,74 @@
+\hypertarget{class_recommendation_runner}{}\doxysection{Referencia de la Clase Recommendation\+Runner}
+\label{class_recommendation_runner}\index{RecommendationRunner@{RecommendationRunner}}
+
+
+Diagrama de herencias de Recommendation\+Runner
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=203pt]{class_recommendation_runner__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Diagrama de colaboración para Recommendation\+Runner\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=203pt]{class_recommendation_runner__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+Array\+List$<$ String $>$ \mbox{\hyperlink{class_recommendation_runner_a02989fa44116e89e8aebf58c2daf851e}{get\+Items\+To\+Rate}} ()
+\item 
+void \mbox{\hyperlink{class_recommendation_runner_ac216526072926d17c7522e7af489581c}{print\+Recommendations\+For}} (String web\+Rater\+ID)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Documentación de las funciones miembro}
+\mbox{\Hypertarget{class_recommendation_runner_a02989fa44116e89e8aebf58c2daf851e}\label{class_recommendation_runner_a02989fa44116e89e8aebf58c2daf851e}} 
+\index{RecommendationRunner@{RecommendationRunner}!getItemsToRate@{getItemsToRate}}
+\index{getItemsToRate@{getItemsToRate}!RecommendationRunner@{RecommendationRunner}}
+\doxysubsubsection{\texorpdfstring{getItemsToRate()}{getItemsToRate()}}
+{\footnotesize\ttfamily Array\+List$<$ String $>$ Recommendation\+Runner.\+get\+Items\+To\+Rate (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+This method returns a list of movie IDs that will be used to look up the movies in the \mbox{\hyperlink{class_movie_database}{Movie\+Database}} and present them to users to rate.
+
+The movies returned in the list will be displayed on a web page, so the number you choose may affect how long the page takes to load and how willing users are to rate the movies. For example, 10-\/20 should be fine, 50 or more would be too many.
+
+There are no restrictions on the method you use to generate this list of movies\+: the most recent movies, movies from a specific genre, randomly chosen movies, or simply your favorite movies.
+
+The ratings for these movies will make the profile for a new \mbox{\hyperlink{interface_rater}{Rater}} that will be used to compare to for finding recommendations. 
+
+Implementa \mbox{\hyperlink{interface_recommender_ac375764d8b02bd6377fc431d35f110b2}{Recommender}}.
+
+\mbox{\Hypertarget{class_recommendation_runner_ac216526072926d17c7522e7af489581c}\label{class_recommendation_runner_ac216526072926d17c7522e7af489581c}} 
+\index{RecommendationRunner@{RecommendationRunner}!printRecommendationsFor@{printRecommendationsFor}}
+\index{printRecommendationsFor@{printRecommendationsFor}!RecommendationRunner@{RecommendationRunner}}
+\doxysubsubsection{\texorpdfstring{printRecommendationsFor()}{printRecommendationsFor()}}
+{\footnotesize\ttfamily void Recommendation\+Runner.\+print\+Recommendations\+For (\begin{DoxyParamCaption}\item[{String}]{web\+Rater\+ID }\end{DoxyParamCaption})}
+
+This method returns nothing, but prints out an HTML table of the movies recommended for the given rater.
+
+The HTML printed will be displayed on a web page, so the number you choose to display may affect how long the page takes to load. For example, you may want to limit the number printed to only the top 20-\/50 movies recommended or to movies not rater by the given rater.
+
+You may also include CSS styling for your table using the \texorpdfstring{$<$}{<}style\texorpdfstring{$>$}{>} tag before you print the table. There are no restrictions on which movies you print, what order you print them in, or what information you include about each movie.
+
+
+\begin{DoxyParams}{Parámetros}
+{\em web\+Rater\+ID} & the ID of a new \mbox{\hyperlink{interface_rater}{Rater}} that has been already added to the \mbox{\hyperlink{class_rater_database}{Rater\+Database}} with ratings for the movies returned by the method get\+Items\+To\+Rate \\
+\hline
+\end{DoxyParams}
+
+
+Implementa \mbox{\hyperlink{interface_recommender_ab11eabde261256c600435497412815b4}{Recommender}}.
+
+
+
+La documentación para esta clase fue generada a partir del siguiente fichero\+:\begin{DoxyCompactItemize}
+\item 
+Codes/Recommendation\+Runner.\+java\end{DoxyCompactItemize}

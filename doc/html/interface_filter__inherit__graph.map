@@ -1,0 +1,9 @@
+<map id="Filter" name="Filter">
+<area shape="rect" id="node1" title=" " alt="" coords="305,5,355,32"/>
+<area shape="rect" id="node2" href="$class_all_filters.html" title=" " alt="" coords="5,80,79,107"/>
+<area shape="rect" id="node3" href="$class_directors_filter.html" title=" " alt="" coords="103,80,205,107"/>
+<area shape="rect" id="node4" href="$class_genre_filter.html" title=" " alt="" coords="229,80,316,107"/>
+<area shape="rect" id="node5" href="$class_minutes_filter.html" title=" " alt="" coords="340,80,437,107"/>
+<area shape="rect" id="node6" href="$class_true_filter.html" title=" " alt="" coords="461,80,537,107"/>
+<area shape="rect" id="node7" href="$class_year_after_filter.html" title=" " alt="" coords="561,80,667,107"/>
+</map>

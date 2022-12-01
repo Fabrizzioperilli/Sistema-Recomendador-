@@ -1,0 +1,67 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
+\babel@toc {spanish}{}
+\contentsline {chapter}{\numberline {1}Indice jerárquico}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Jerarquía de la clase}{1}{section.1.1}%
+\contentsline {chapter}{\numberline {2}Índice de clases}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Lista de clases}{3}{section.2.1}%
+\contentsline {chapter}{\numberline {3}Documentación de las clases}{5}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Referencia de la Clase All\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Filters}{5}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Documentación de las funciones miembro}{6}{subsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.1.1}satisfies()}{6}{subsubsection.3.1.1.1}%
+\contentsline {section}{\numberline {3.2}Referencia de la Clase Directors\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Filter}{6}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Descripción detallada}{7}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Documentación de las funciones miembro}{7}{subsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.2.1}satisfies()}{7}{subsubsection.3.2.2.1}%
+\contentsline {section}{\numberline {3.3}Referencia de la Clase Efficient\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Rater}{7}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Documentación de las funciones miembro}{8}{subsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.1.1}addRating()}{8}{subsubsection.3.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.3.1.2}getID()}{8}{subsubsection.3.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.3.1.3}getItemsRated()}{9}{subsubsection.3.3.1.3}%
+\contentsline {subsubsection}{\numberline {3.3.1.4}getRating()}{9}{subsubsection.3.3.1.4}%
+\contentsline {subsubsection}{\numberline {3.3.1.5}hasRating()}{9}{subsubsection.3.3.1.5}%
+\contentsline {subsubsection}{\numberline {3.3.1.6}numRatings()}{9}{subsubsection.3.3.1.6}%
+\contentsline {section}{\numberline {3.4}Referencia de la Interfaz Filter}{9}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Referencia de la Clase First\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Ratings}{10}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Referencia de la Clase Fourth\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Ratings}{10}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Referencia de la Clase Genre\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Filter}{11}{section.3.7}%
+\contentsline {subsection}{\numberline {3.7.1}Descripción detallada}{11}{subsection.3.7.1}%
+\contentsline {subsection}{\numberline {3.7.2}Documentación de las funciones miembro}{12}{subsection.3.7.2}%
+\contentsline {subsubsection}{\numberline {3.7.2.1}satisfies()}{12}{subsubsection.3.7.2.1}%
+\contentsline {section}{\numberline {3.8}Referencia de la Clase Minutes\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Filter}{12}{section.3.8}%
+\contentsline {subsection}{\numberline {3.8.1}Descripción detallada}{13}{subsection.3.8.1}%
+\contentsline {subsection}{\numberline {3.8.2}Documentación de las funciones miembro}{13}{subsection.3.8.2}%
+\contentsline {subsubsection}{\numberline {3.8.2.1}satisfies()}{13}{subsubsection.3.8.2.1}%
+\contentsline {section}{\numberline {3.9}Referencia de la Clase Movie}{13}{section.3.9}%
+\contentsline {section}{\numberline {3.10}Referencia de la Clase Movie\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Database}{14}{section.3.10}%
+\contentsline {section}{\numberline {3.11}Referencia de la Clase Movie\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Runner\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Average}{14}{section.3.11}%
+\contentsline {section}{\numberline {3.12}Referencia de la Clase Movie\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Runner\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Similar\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Ratings}{14}{section.3.12}%
+\contentsline {section}{\numberline {3.13}Referencia de la Clase Movie\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Runner\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}With\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Filters}{15}{section.3.13}%
+\contentsline {section}{\numberline {3.14}Referencia de la Clase Plain\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Rater}{15}{section.3.14}%
+\contentsline {subsection}{\numberline {3.14.1}Documentación de las funciones miembro}{16}{subsection.3.14.1}%
+\contentsline {subsubsection}{\numberline {3.14.1.1}addRating()}{16}{subsubsection.3.14.1.1}%
+\contentsline {subsubsection}{\numberline {3.14.1.2}getID()}{16}{subsubsection.3.14.1.2}%
+\contentsline {subsubsection}{\numberline {3.14.1.3}getItemsRated()}{16}{subsubsection.3.14.1.3}%
+\contentsline {subsubsection}{\numberline {3.14.1.4}getRating()}{16}{subsubsection.3.14.1.4}%
+\contentsline {subsubsection}{\numberline {3.14.1.5}hasRating()}{17}{subsubsection.3.14.1.5}%
+\contentsline {subsubsection}{\numberline {3.14.1.6}numRatings()}{17}{subsubsection.3.14.1.6}%
+\contentsline {section}{\numberline {3.15}Referencia de la Interfaz Rater}{17}{section.3.15}%
+\contentsline {section}{\numberline {3.16}Referencia de la Clase Rater\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Database}{18}{section.3.16}%
+\contentsline {section}{\numberline {3.17}Referencia de la Clase Rating}{18}{section.3.17}%
+\contentsline {section}{\numberline {3.18}Referencia de la Clase Recommendation\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Runner}{19}{section.3.18}%
+\contentsline {subsection}{\numberline {3.18.1}Documentación de las funciones miembro}{20}{subsection.3.18.1}%
+\contentsline {subsubsection}{\numberline {3.18.1.1}getItemsToRate()}{20}{subsubsection.3.18.1.1}%
+\contentsline {subsubsection}{\numberline {3.18.1.2}printRecommendationsFor()}{20}{subsubsection.3.18.1.2}%
+\contentsline {section}{\numberline {3.19}Referencia de la Interfaz Recommender}{21}{section.3.19}%
+\contentsline {subsection}{\numberline {3.19.1}Descripción detallada}{21}{subsection.3.19.1}%
+\contentsline {subsection}{\numberline {3.19.2}Documentación de las funciones miembro}{21}{subsection.3.19.2}%
+\contentsline {subsubsection}{\numberline {3.19.2.1}getItemsToRate()}{21}{subsubsection.3.19.2.1}%
+\contentsline {subsubsection}{\numberline {3.19.2.2}printRecommendationsFor()}{22}{subsubsection.3.19.2.2}%
+\contentsline {section}{\numberline {3.20}Referencia de la Clase Second\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Ratings}{22}{section.3.20}%
+\contentsline {section}{\numberline {3.21}Referencia de la Clase Third\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Ratings}{22}{section.3.21}%
+\contentsline {section}{\numberline {3.22}Referencia de la Clase True\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Filter}{23}{section.3.22}%
+\contentsline {subsection}{\numberline {3.22.1}Documentación de las funciones miembro}{23}{subsection.3.22.1}%
+\contentsline {subsubsection}{\numberline {3.22.1.1}satisfies()}{23}{subsubsection.3.22.1.1}%
+\contentsline {section}{\numberline {3.23}Referencia de la Clase Year\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}After\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Filter}{24}{section.3.23}%
+\contentsline {subsection}{\numberline {3.23.1}Documentación de las funciones miembro}{24}{subsection.3.23.1}%
+\contentsline {subsubsection}{\numberline {3.23.1.1}satisfies()}{24}{subsubsection.3.23.1.1}%
+\contentsline {chapter}{\'{I}ndice alfab\'{e}tico}{25}{section*.47}%

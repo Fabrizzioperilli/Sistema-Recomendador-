@@ -1,0 +1,116 @@
+\begin{theindex}
+
+  \item {addRating}
+    \subitem {EfficientRater}, \hyperpage{8}
+    \subitem {PlainRater}, \hyperpage{16}
+  \item {AllFilters}, \hyperpage{5}
+    \subitem {satisfies}, \hyperpage{6}
+
+  \indexspace
+
+  \item {DirectorsFilter}, \hyperpage{6}
+    \subitem {satisfies}, \hyperpage{7}
+
+  \indexspace
+
+  \item {EfficientRater}, \hyperpage{7}
+    \subitem {addRating}, \hyperpage{8}
+    \subitem {getID}, \hyperpage{8}
+    \subitem {getItemsRated}, \hyperpage{8}
+    \subitem {getRating}, \hyperpage{9}
+    \subitem {hasRating}, \hyperpage{9}
+    \subitem {numRatings}, \hyperpage{9}
+
+  \indexspace
+
+  \item {Filter}, \hyperpage{9}
+  \item {FirstRatings}, \hyperpage{10}
+  \item {FourthRatings}, \hyperpage{10}
+
+  \indexspace
+
+  \item {GenreFilter}, \hyperpage{11}
+    \subitem {satisfies}, \hyperpage{12}
+  \item {getID}
+    \subitem {EfficientRater}, \hyperpage{8}
+    \subitem {PlainRater}, \hyperpage{16}
+  \item {getItemsRated}
+    \subitem {EfficientRater}, \hyperpage{8}
+    \subitem {PlainRater}, \hyperpage{16}
+  \item {getItemsToRate}
+    \subitem {RecommendationRunner}, \hyperpage{20}
+    \subitem {Recommender}, \hyperpage{21}
+  \item {getRating}
+    \subitem {EfficientRater}, \hyperpage{9}
+    \subitem {PlainRater}, \hyperpage{16}
+
+  \indexspace
+
+  \item {hasRating}
+    \subitem {EfficientRater}, \hyperpage{9}
+    \subitem {PlainRater}, \hyperpage{16}
+
+  \indexspace
+
+  \item {MinutesFilter}, \hyperpage{12}
+    \subitem {satisfies}, \hyperpage{13}
+  \item {Movie}, \hyperpage{13}
+  \item {MovieDatabase}, \hyperpage{14}
+  \item {MovieRunnerAverage}, \hyperpage{14}
+  \item {MovieRunnerSimilarRatings}, \hyperpage{14}
+  \item {MovieRunnerWithFilters}, \hyperpage{15}
+
+  \indexspace
+
+  \item {numRatings}
+    \subitem {EfficientRater}, \hyperpage{9}
+    \subitem {PlainRater}, \hyperpage{17}
+
+  \indexspace
+
+  \item {PlainRater}, \hyperpage{15}
+    \subitem {addRating}, \hyperpage{16}
+    \subitem {getID}, \hyperpage{16}
+    \subitem {getItemsRated}, \hyperpage{16}
+    \subitem {getRating}, \hyperpage{16}
+    \subitem {hasRating}, \hyperpage{16}
+    \subitem {numRatings}, \hyperpage{17}
+  \item {printRecommendationsFor}
+    \subitem {RecommendationRunner}, \hyperpage{20}
+    \subitem {Recommender}, \hyperpage{21}
+
+  \indexspace
+
+  \item {Rater}, \hyperpage{17}
+  \item {RaterDatabase}, \hyperpage{18}
+  \item {Rating}, \hyperpage{18}
+  \item {RecommendationRunner}, \hyperpage{19}
+    \subitem {getItemsToRate}, \hyperpage{20}
+    \subitem {printRecommendationsFor}, \hyperpage{20}
+  \item {Recommender}, \hyperpage{21}
+    \subitem {getItemsToRate}, \hyperpage{21}
+    \subitem {printRecommendationsFor}, \hyperpage{21}
+
+  \indexspace
+
+  \item {satisfies}
+    \subitem {AllFilters}, \hyperpage{6}
+    \subitem {DirectorsFilter}, \hyperpage{7}
+    \subitem {GenreFilter}, \hyperpage{12}
+    \subitem {MinutesFilter}, \hyperpage{13}
+    \subitem {TrueFilter}, \hyperpage{23}
+    \subitem {YearAfterFilter}, \hyperpage{24}
+  \item {SecondRatings}, \hyperpage{22}
+
+  \indexspace
+
+  \item {ThirdRatings}, \hyperpage{22}
+  \item {TrueFilter}, \hyperpage{23}
+    \subitem {satisfies}, \hyperpage{23}
+
+  \indexspace
+
+  \item {YearAfterFilter}, \hyperpage{24}
+    \subitem {satisfies}, \hyperpage{24}
+
+\end{theindex}

@@ -10,8 +10,8 @@ package es.ull.etsii.app;
 import java.util.*;
 
 public class MovieRunnerAverage {
-	private String moviefile = "data/ratedmoviesfull.csv";
-	private String ratingsfile = "data/ratings.csv";
+	private String moviefile = "src/main/resources/data/ratedmoviesfull.csv";
+	private String ratingsfile = "src/main/resources/data/ratings.csv";
 
 	public void printAverageRatings() {
 		SecondRatings sr = new SecondRatings(moviefile, ratingsfile);

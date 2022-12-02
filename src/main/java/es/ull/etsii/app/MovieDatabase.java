@@ -10,14 +10,14 @@ public class MovieDatabase {
 	public static void initialize(String moviefile) {
 		if (ourMovies == null) {
 			ourMovies = new HashMap<String, Movie>();
-			loadMovies("data/" + moviefile);
+			loadMovies("src/main/resources/data/" + moviefile);
 		}
 	}
 
 	private static void initialize() {
 		if (ourMovies == null) {
 			ourMovies = new HashMap<String, Movie>();
-			loadMovies("data/ratedmoviesfull.csv");
+			loadMovies("src/main/resources/data/ratedmoviesfull.csv");
 		}
 	}
 

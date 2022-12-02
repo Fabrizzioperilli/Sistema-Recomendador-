@@ -18,7 +18,7 @@ public class Week4 {
 		
 		System.out.print(
 		    "Consider the method dotProduct in the FourthRatings class. What should the call "
-		        + "dotProduct(“15”, “20”)  return? ");
+		        + "dotProduct('15', '20')  return? ");
 		System.out.println(fourthRatings.dotProduct(meRater, otherRater));
 		
 		MovieRunnerSimilarRatings quiz = new MovieRunnerSimilarRatings();

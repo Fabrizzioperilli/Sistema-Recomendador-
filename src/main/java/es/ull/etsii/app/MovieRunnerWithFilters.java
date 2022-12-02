@@ -9,7 +9,7 @@ package es.ull.etsii.app;
 import java.util.*;
 
 public class MovieRunnerWithFilters {
-	private String ratingsfile = "data/ratings.csv";
+	private String ratingsfile = "src/main/resources/data/ratings.csv";
 	private String moviefile = "ratedmoviesfull.csv";
 
 	public void printAverageRating() {

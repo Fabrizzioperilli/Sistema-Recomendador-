@@ -28,7 +28,7 @@ public class FirstRatings {
 	}
 
 	public void testLoadMovies() {
-		ArrayList<Movie> loadMovies_short = loadMovies("data/ratedmoviesfull.csv");
+		ArrayList<Movie> loadMovies_short = loadMovies("src/main/resources/data/ratedmoviesfull.csv");
 		System.out.println("loadMovies: " + loadMovies_short);
 		System.out.println("Number of movies: " + loadMovies_short.size());
 
@@ -115,7 +115,7 @@ public class FirstRatings {
 	}
 
 	public void testLoadRaters() {
-		ArrayList<EfficientRater> raters = loadRaters("data/ratings.csv");
+		ArrayList<EfficientRater> raters = loadRaters("src/main/java/data/ratings.csv");
 		System.out.println("Total number of raters: " + raters.size());
 
 		for (EfficientRater r : raters) {

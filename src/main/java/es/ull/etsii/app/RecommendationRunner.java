@@ -7,6 +7,7 @@ package es.ull.etsii.app;
  * @version (a version number or a date)
  */
 import java.util.*;
+import java.security.SecureRandom;
 
 public class RecommendationRunner implements Recommender {
 	public ArrayList<String> getItemsToRate() {
@@ -14,7 +15,7 @@ public class RecommendationRunner implements Recommender {
 		int candidateSize = 20;
 		ArrayList<String> movieIDs = MovieDatabase.filterBy(new TrueFilter());
 
-		Random random = new Random();
+		SecureRandom random = new SecureRandom();
 		for (int i = 0; i < candidateSize; i++) {
 			String candidate = movieIDs.get(random.nextInt(movieIDs.size()));
 			if (ret.contains(candidate)) {

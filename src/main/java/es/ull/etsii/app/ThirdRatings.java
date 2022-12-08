@@ -39,6 +39,9 @@ public class ThirdRatings {
 		if (count < minimalRaters) {
 			return 0.0;
 		} else {
+			if (count == 0) {
+				count = 1;
+			}
 			return totalRating / count;
 		}
 	}

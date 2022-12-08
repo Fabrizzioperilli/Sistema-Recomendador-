@@ -23,6 +23,9 @@ public class FourthRatings {
 		if (count < minimalRaters) {
 			return 0.0;
 		} else {
+			if (count == 0) {
+				count = 1;
+			}
 			return totalRating / count;
 		}
 	}
@@ -142,6 +145,9 @@ public class FourthRatings {
 			}
 
 			if (countRating >= minimalRaters) {
+				if (countRating == 0) {
+					countRating = 1;
+				}
 				weightedMovieRatings.add(new Rating(movieID, weightedRating / countRating));
 			}
 		}

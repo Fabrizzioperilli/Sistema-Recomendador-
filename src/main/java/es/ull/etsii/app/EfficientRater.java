@@ -19,6 +19,9 @@ public class EfficientRater implements Rater {
 	}
 
 	public void addRating(String item, double rating) {
+		if (rating < 0) {
+			throw new IllegalArgumentException("Invalid rating value (less than 0)");
+		}
 		myRatings.put(item, new Rating(item, rating));
 	}
 

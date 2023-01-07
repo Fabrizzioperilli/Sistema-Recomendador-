@@ -47,7 +47,7 @@ public class SecondRatings {
 		if (count < minimalRaters) {
 			return 0.0;
 		} else {
-			if (count == 1) {
+			if (count == 0) {
 				count = 1;
 			}
 			return totalRating / count;

@@ -1,6 +1,7 @@
 package edu.duke;
 
 import java.util.Iterator;
+import java.util.NoSuchElementException;
 
 
 /**
@@ -39,6 +40,9 @@ class TextIterable implements Iterable<String> {
 
             /*@Override*/
             public String next () {
+                if(!hasNext()){
+        	      throw new NoSuchElementException();
+        	    }
                 String s = myStrings[myCount];
                 myCount++;
                 return s;

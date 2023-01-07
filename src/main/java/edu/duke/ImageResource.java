@@ -271,6 +271,7 @@ public class ImageResource {
         }
         catch (InterruptedException e) {
             System.err.println("Interrupted waiting for pixels!");
+            Thread.currentThread().interrupt();
             return null;
         }
         if ((pg.getStatus() & ImageObserver.ABORT) != 0) {

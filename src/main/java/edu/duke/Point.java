@@ -61,8 +61,8 @@ public class Point {
      * @return the distance from this point to otherPt
      */
     public double distance (Point otherPt) {
-        int dx = x - otherPt.getX();
-        int dy = y - otherPt.getY();
+        double dx = x - otherPt.getX();
+        double dy = y - otherPt.getY();
         return Math.sqrt(dx * dx + dy * dy);
     }
     

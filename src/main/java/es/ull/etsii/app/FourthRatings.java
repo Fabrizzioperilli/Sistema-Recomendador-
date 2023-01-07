@@ -111,6 +111,9 @@ public class FourthRatings {
 			}
 
 			if (countRating >= minimalRaters) {
+				if (countRating == 0 ) {
+					countRating = 1;
+				}
 				weightedMovieRatings.add(new Rating(movieID, weightedRating / countRating));
 			}
 		}

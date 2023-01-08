@@ -41,8 +41,8 @@ class TextIterable implements Iterable<String> {
             /*@Override*/
             public String next () {
                 if(!hasNext()){
-        	      throw new NoSuchElementException();
-        	    }
+                    throw new NoSuchElementException();
+                }
                 String s = myStrings[myCount];
                 myCount++;
                 return s;

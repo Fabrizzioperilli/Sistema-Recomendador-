@@ -8,21 +8,25 @@ package es.ull.etsii.app;
  */
 
 import java.util.*;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class MovieRunnerAverage {
 	private String moviefile = "src/main/resources/data/ratedmoviesfull.csv";
 	private String ratingsfile = "src/main/resources/data/ratings.csv";
+	private Logger logger = Logger.getLogger(MovieRunnerAverage.class.getName());
+
 
 	public void printAverageRatings() {
 		SecondRatings sr = new SecondRatings(moviefile, ratingsfile);
-		System.out.println("movie size is " + sr.getMovieSize());
-		System.out.println("rater size is " + sr.getRaterSize());
-		System.out.println(sr.getAverageRatings(2));
-		System.out.println(sr.getTitle("2"));
+		logger.log(Level.INFO, "movie size is {}", sr.getMovieSize());
+		logger.log(Level.INFO, "rater size is {}", sr.getRaterSize());
+		logger.log(Level.INFO, "{}", sr.getAverageRatings(2));
+		logger.log(Level.INFO, "{}", sr.getTitle("2"));
 
 		int minimalRaters = 12;
 		ArrayList<Rating> avgRatingList = sr.getAverageRatings(minimalRaters);
-		System.out.println(avgRatingList.size());
+		logger.log(Level.INFO, "{}", avgRatingList.size());
 
 		Collections.sort(avgRatingList);
 		for (Rating r : avgRatingList) {
@@ -37,7 +41,7 @@ public class MovieRunnerAverage {
 		String id = sr.getID(title);
 		ArrayList<Rating> avgRatingList = sr.getAverageRatings(minimalRaters);
 		if (id.equals(new String("NO SUCH TITLE"))) {
-			System.out.println(id);
+			logger.log(Level.INFO, "{}", id);
 		} else {
 			for (Rating r : avgRatingList) {
 				if (r.getItem().equals(id)) {

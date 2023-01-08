@@ -1,22 +1,24 @@
 package es.ull.etsii.app;
 
 import java.util.*;
-import org.apache.commons.csv.*;
-import edu.duke.FileResource;
+
 
 public class MovieDatabase {
+	private MovieDatabase() {
+		throw new IllegalStateException("Utility class");
+	}
 	private static HashMap<String, Movie> ourMovies;
 
 	public static void initialize(String moviefile) {
 		if (ourMovies == null) {
-			ourMovies = new HashMap<String, Movie>();
+			ourMovies = new HashMap<>();
 			loadMovies("src/main/resources/data/" + moviefile);
 		}
 	}
 
 	private static void initialize() {
 		if (ourMovies == null) {
-			ourMovies = new HashMap<String, Movie>();
+			ourMovies = new HashMap<>();
 			loadMovies("src/main/resources/data/ratedmoviesfull.csv");
 		}
 	}
@@ -80,7 +82,7 @@ public class MovieDatabase {
 
 	public static ArrayList<String> filterBy(Filter f) {
 		initialize();
-		ArrayList<String> list = new ArrayList<String>();
+		ArrayList<String> list = new ArrayList<>();
 		for (String id : ourMovies.keySet()) {
 			if (f.satisfies(id)) {
 				list.add(id);

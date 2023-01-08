@@ -12,18 +12,21 @@ import java.util.*;
 import org.apache.commons.csv.*;
 
 public class RaterDatabase {
+	private RaterDatabase() {
+		throw new IllegalStateException("Utility class");
+	}
 	private static HashMap<String, Rater> ourRaters;
 
 	private static void initialize() {
 		// this method is only called from addRatings
 		if (ourRaters == null) {
-			ourRaters = new HashMap<String, Rater>();
+			ourRaters = new HashMap<>();
 		}
 	}
 
 	public static void initialize(String filename) {
 		if (ourRaters == null) {
-			ourRaters = new HashMap<String, Rater>();
+			ourRaters = new HashMap<>();
 			addRatings("src/main/resources/data/" + filename);
 		}
 	}
@@ -60,9 +63,7 @@ public class RaterDatabase {
 
 	public static ArrayList<Rater> getRaters() {
 		initialize();
-		ArrayList<Rater> list = new ArrayList<Rater>(ourRaters.values());
-
-		return list;
+		return new ArrayList<>(ourRaters.values());
 	}
 
 	public static int size() {

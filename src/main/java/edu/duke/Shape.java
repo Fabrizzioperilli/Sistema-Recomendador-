@@ -1,7 +1,6 @@
 package edu.duke;
 
 import java.util.ArrayList;
-import edu.duke.FileResource;
 
 
 /**
@@ -58,7 +57,7 @@ public class Shape {
      * Create an empty <code>Shape</code> object, one with no points.
      */
     public Shape () {
-        points = new ArrayList<Point>();
+        points = new ArrayList<>();
     }
 
     /**

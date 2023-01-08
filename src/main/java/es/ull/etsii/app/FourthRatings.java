@@ -31,7 +31,7 @@ public class FourthRatings {
 	}
 
 	public ArrayList<Rating> getAverageRatings(int minimalRaters) {
-		ArrayList<Rating> ret = new ArrayList<Rating>();
+		ArrayList<Rating> ret = new ArrayList<>();
 		ArrayList<String> myMovies = MovieDatabase.filterBy(new TrueFilter());
 		for (String movieID : myMovies) {
 			double avgRating = getAverageByID(movieID, minimalRaters);
@@ -43,7 +43,7 @@ public class FourthRatings {
 	}
 
 	public ArrayList<Rating> getAverageRatingsByFilter(int minimalRaters, Filter filterCriteria) {
-		ArrayList<Rating> ret = new ArrayList<Rating>();
+		ArrayList<Rating> ret = new ArrayList<>();
 		ArrayList<String> myMovies = MovieDatabase.filterBy(filterCriteria);
 		for (String movieID : myMovies) {
 			double avgRating = getAverageByID(movieID, minimalRaters);
@@ -68,7 +68,7 @@ public class FourthRatings {
 	}
 
 	private ArrayList<Rating> getSimilarities(String id) {
-		ArrayList<Rating> similarities = new ArrayList<Rating>();
+		ArrayList<Rating> similarities = new ArrayList<>();
 		ArrayList<Rater> raters = RaterDatabase.getRaters();
 		Rater me = RaterDatabase.getRater(id);
 
@@ -85,7 +85,7 @@ public class FourthRatings {
 	}
 
 	public ArrayList<Rating> getSimilarRatings(String id, int numSimilarRaters, int minimalRaters) {
-		ArrayList<Rating> weightedMovieRatings = new ArrayList<Rating>();
+		ArrayList<Rating> weightedMovieRatings = new ArrayList<>();
 		ArrayList<String> movieList = MovieDatabase.filterBy(new TrueFilter());
 
 		ArrayList<Rating> raterSimilarities = getSimilarities(id);
@@ -111,7 +111,7 @@ public class FourthRatings {
 			}
 
 			if (countRating >= minimalRaters) {
-				if (countRating == 0 ) {
+				if(countRating == 0) {
 					countRating = 1;
 				}
 				weightedMovieRatings.add(new Rating(movieID, weightedRating / countRating));
@@ -122,7 +122,7 @@ public class FourthRatings {
 
 	public ArrayList<Rating> getSimilarRatingsByFilter(String id, int numSimilarRaters, int minimalRaters,
 			Filter filterCriteria) {
-		ArrayList<Rating> weightedMovieRatings = new ArrayList<Rating>();
+		ArrayList<Rating> weightedMovieRatings = new ArrayList<>();
 		ArrayList<String> movieList = MovieDatabase.filterBy(filterCriteria);
 
 		ArrayList<Rating> raterSimilarities = getSimilarities(id);

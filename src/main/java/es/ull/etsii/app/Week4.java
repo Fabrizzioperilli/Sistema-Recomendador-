@@ -1,6 +1,6 @@
 package es.ull.etsii.app;
 
-public class Week4 {
+class Week4 {
 	public static void main(String[] args) {
 		FourthRatings fourthRatings = new FourthRatings();
 		Rater meRater = new EfficientRater("15");

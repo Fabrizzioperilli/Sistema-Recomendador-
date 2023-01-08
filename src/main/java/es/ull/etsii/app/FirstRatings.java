@@ -15,16 +15,16 @@ public class FirstRatings {
 	public ArrayList<Movie> loadMovies(String filename) {
 		// process every record from csv file
 		FileResource fr = new FileResource(filename);
-		ArrayList<Movie> Movielist = new ArrayList<Movie>();
+		ArrayList<Movie> movielist = new ArrayList<>();
 		for (CSVRecord record : fr.getCSVParser()) {
 			Movie currMovie = new Movie(record.get("id"), record.get("title"), record.get("year"), record.get("genre"),
 					record.get("director"), record.get("country"), record.get("poster"),
 					Integer.parseInt(record.get("minutes")));
 
-			Movielist.add(currMovie);
+			movielist.add(currMovie);
 		}
 
-		return Movielist;
+		return movielist;
 	}
 
 	public void testLoadMovies() {
@@ -65,8 +65,8 @@ public class FirstRatings {
 	}
 
 	public ArrayList<EfficientRater> loadRaters(String filename) {
-		ArrayList<EfficientRater> raters = new ArrayList<EfficientRater>();
-		ArrayList<String> raterIDs = new ArrayList<String>();
+		ArrayList<EfficientRater> raters = new ArrayList<>();
+		ArrayList<String> raterIDs = new ArrayList<>();
 		FileResource fr = new FileResource(filename);
 
 		for (CSVRecord record : fr.getCSVParser()) {
@@ -95,13 +95,13 @@ public class FirstRatings {
 	}
 
 	public ArrayList<String> getRaterWithMostRatings(ArrayList<EfficientRater> raters) {
-		ArrayList<String> raterIDs = new ArrayList<String>();
-		HashMap<Integer, ArrayList<EfficientRater>> numRaterHash = new HashMap<Integer, ArrayList<EfficientRater>>();
+		ArrayList<String> raterIDs = new ArrayList<>();
+		HashMap<Integer, ArrayList<EfficientRater>> numRaterHash = new HashMap<>();
 
 		for (EfficientRater r : raters) {
 			int num = r.numRatings();
 
-			ArrayList<EfficientRater> currRaters = numRaterHash.getOrDefault(num, new ArrayList<EfficientRater>());
+			ArrayList<EfficientRater> currRaters = numRaterHash.getOrDefault(num, new ArrayList<>());
 			currRaters.add(r);
 			numRaterHash.put(num, currRaters);
 		}

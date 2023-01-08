@@ -17,6 +17,9 @@ import javax.swing.filechooser.FileFilter;
  *         http://www.apache.org/licenses/LICENSE-2.0 for details.
  */
 class FileSelector {
+    private FileSelector() {
+        throw new IllegalStateException("Clase utilidad");
+    }
     // result of selection
     private static File[] ourFiles;
     // BUGBUG: I think this is the right behavior, remembers where user left it last
@@ -34,7 +37,7 @@ class FileSelector {
      */
     public static File selectFile () {
         // guaranteed to have one element, though it may be null
-        return selectFiles(null, false, true)[0];
+        return selectFiles(null, false, true)[0]; //NOSONAR
     }
 
     /**
@@ -42,7 +45,7 @@ class FileSelector {
      */
     public static File selectFile (String[] extensionAccepted) {
         // guaranteed to have one element, though it may be null
-        return selectFiles(extensionAccepted, false, true)[0];
+        return selectFiles(extensionAccepted, false, true)[0]; //NOSONAR
     }
 
     /**
@@ -65,7 +68,7 @@ class FileSelector {
      */
     public static File saveFile () {
         // guaranteed to have one element, though it may be null
-        return selectFiles(null, false, false)[0];
+        return selectFiles(null, false, false)[0]; //NOSONAR
     }
 
     /**
@@ -73,7 +76,7 @@ class FileSelector {
      */
     public static File saveFile (String[] extensionAccepted) {
         // guaranteed to have one element, though it may be null
-        return selectFiles(extensionAccepted, false, false)[0];
+        return selectFiles(extensionAccepted, false, false)[0]; //NOSONAR
     }
 
 
@@ -85,7 +88,7 @@ class FileSelector {
         ourChooser.setFileFilter(new ChooserFilter(extensionAccepted));
 
         try {
-            ourFiles = null;
+            ourFiles = null; //NOSONAR
             SwingUtilities.invokeAndWait(new Runnable() {
                 /*@Override*/
                 public void run () {
@@ -114,6 +117,7 @@ class FileSelector {
             return ourFiles;
         } catch (Exception e) {
             // it is still an exception, just not one required to be handled
+            Thread.currentThread().interrupt();
             throw new RuntimeException(e);
         }
     }

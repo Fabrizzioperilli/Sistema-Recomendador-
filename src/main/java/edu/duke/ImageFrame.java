@@ -24,9 +24,8 @@ class ImageFrame extends JFrame {
     /**
      * Creates an ImageFrame.
      */
-    public ImageFrame (String fileName, Image image) {
+    public ImageFrame (String fileName) {
         setTitle(fileName);
-        // setResizable(false);
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
     }
 
@@ -46,7 +45,6 @@ class ImageFrame extends JFrame {
         setVisible(true);
     }
 
-
     // This class implements a panel for displaying an image.
     static class ImagePanel extends JPanel {
         private static final long serialVersionUID = 1L;
@@ -60,6 +58,7 @@ class ImageFrame extends JFrame {
             setPreferredSize(new Dimension(width, height));
             myImage = image;
         }
+    
 
         /**
          * Resets the image and redraws it in the panel.

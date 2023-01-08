@@ -49,7 +49,6 @@ public class RecommendationRunner implements Recommender {
 
 				String URL = MovieDatabase.getPoster(r.getItem());
 				String title = MovieDatabase.getTitle(r.getItem());
-				String director = MovieDatabase.getDirector(r.getItem());
 				String country = MovieDatabase.getCountry(r.getItem());
 				int year = MovieDatabase.getYear(r.getItem());
 				String genre = MovieDatabase.getGenres(r.getItem());
@@ -81,11 +80,6 @@ public class RecommendationRunner implements Recommender {
 	private void printUpperPart() {
 		System.out.println(
 				"<link href=\"https://fonts.googleapis.com/css?family=Syncopate\" rel=\"stylesheet\"><link href=\"https://fonts.googleapis.com/css?family=Roboto|Syncopate\" rel=\"stylesheet\"><div id=\"header\"><h2>Recommended Movies:</h2></div><table class=\"outside_table\"><tr  class=\"table-header\"><th>&nbsp</th><th class=\"movie_title\">Title</th></tr>");
-	}
-
-	private void printCSS() {
-		System.out.println(
-				"<style>* {margin: 0;padding: 0;}img{height: 100px;margin-right:10px;}#header{background-color: #F49F58;margin-top: 0;height: 100px;}h2{padding-left: 15px;padding-top: 40px;color: #FFFFFF;}h3{}body{margin-top: 0;font-family: 'Arial'}th{text-align: left;font-family: 'Arial', sans-serif;padding-top:15px;padding-bottom: 7px;}td{padding-top: 10px;padding-right: 10px;padding-left: 10px;padding-bottom: 5px;}tr{padding-bottom: 10px;}.table-header{background-color: #FFB97F;}.odd_rows{background-color: #FFE4CC;}.even_rows{background-color: #FFFFFF;}.outside_table{width: 100%;border-collapse: collapse;}.movie_title{width = 40%;}</style>");
 	}
 
 	private void printLowerPart() {

@@ -7,9 +7,7 @@ package es.ull.etsii.app;
  * @version (a version number or a date)
  */
 
-import edu.duke.*;
 import java.util.*;
-import org.apache.commons.csv.*;
 
 public class SecondRatings {
 	private ArrayList<Movie> myMovies;
@@ -55,7 +53,7 @@ public class SecondRatings {
 	}
 
 	public ArrayList<Rating> getAverageRatings(int minimalRaters) {
-		ArrayList<Rating> ratings = new ArrayList<Rating>();
+		ArrayList<Rating> ratings = new ArrayList<>();
 		for (Movie m : myMovies) {
 			String movieID = m.getID();
 			double aveRating = getAverageByID(movieID, minimalRaters);

@@ -47,7 +47,7 @@ public class ThirdRatings {
 	}
 
 	public ArrayList<Rating> getAverageRatings(int minimalRaters) {
-		ArrayList<Rating> ret = new ArrayList<Rating>();
+		ArrayList<Rating> ret = new ArrayList<>();
 		ArrayList<String> myMovies = MovieDatabase.filterBy(new TrueFilter());
 		for (String movieID : myMovies) {
 			double avgRating = getAverageByID(movieID, minimalRaters);
@@ -59,7 +59,7 @@ public class ThirdRatings {
 	}
 
 	public ArrayList<Rating> getAverageRatingsByFilter(int minimalRaters, Filter filterCriteria) {
-		ArrayList<Rating> ret = new ArrayList<Rating>();
+		ArrayList<Rating> ret = new ArrayList<>();
 		ArrayList<String> myMovies = MovieDatabase.filterBy(filterCriteria);
 		for (String movieID : myMovies) {
 			double avgRating = getAverageByID(movieID, minimalRaters);

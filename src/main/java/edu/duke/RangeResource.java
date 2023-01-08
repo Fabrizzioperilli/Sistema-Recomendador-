@@ -161,16 +161,17 @@ public class RangeResource {
 
     // generate the values in the range (much simpler than building an Iterator)
     private List<Integer> makeValues (int start, int end, int increment) {
-        List<Integer> result = new ArrayList<Integer>();
+        List<Integer> result = new ArrayList<>();
         while (true) {
             if (increment > 0 && start >= end) {
                 break;
             }
             else if (increment < 0 && start <= end) {
                 break;
+            } else {
+                result.add(start);
+                start += increment;
             }
-            result.add(start);
-            start += increment;
         }
         return result;
     }

@@ -7,6 +7,8 @@ import java.awt.image.PixelGrabber;
 import javax.imageio.ImageIO;
 import java.io.File;
 import java.util.Arrays;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 
 /**
@@ -40,6 +42,7 @@ import java.util.Arrays;
  * (http://www.gnu.org/licenses/gpl.html).
  */
 public class ImageResource {
+    private Logger logger = Logger.getLogger(ImageResource.class.getName());
     // Default width and height of blank images
     static final int WIDTH = 200;
     static final int HEIGHT = 200;
@@ -270,15 +273,14 @@ public class ImageResource {
             pg.grabPixels();
         }
         catch (InterruptedException e) {
-            System.err.println("Interrupted waiting for pixels!");
+            logger.log(Level.INFO, "Interrupted waiting for pixels!");
             Thread.currentThread().interrupt();
             return null;
         }
         if ((pg.getStatus() & ImageObserver.ABORT) != 0) {
-            System.err.println("Image fetch aborted or errored");
+            logger.log(Level.INFO,"Image fetch aborted or errored");
             return null;
         }
-        // System.out.printf("creating pixels %d\n", pixels.length);
         return intsToPixels(pixels, w, h);
     }
 
@@ -288,13 +290,9 @@ public class ImageResource {
             throw new ResourceException(String.format("ImageResource: no pixels for %d %d\n", width, height));
         }
         Pixel[] pix = new Pixel[pixels.length];
-        // System.out.printf("creating %d pixels on %d
-        // %d\n",pix.length,width,height);
         for (int i = 0; i < pixels.length; i++) {
-            // System.out.printf("pix at %d %d %d\n", i/width,i%width,i);
             pix[i] = new Pixel(pixels[i], i % width, i / width);
         }
-        // System.out.printf("returning %d\n", pix.length);
         return pix;
     }
 
@@ -330,7 +328,7 @@ public class ImageResource {
             return image;
         }
         catch (Exception e) {
-            System.err.println(e);
+            logger.log(Level.INFO, "e");
             return null;
         }
     }
@@ -345,7 +343,6 @@ public class ImageResource {
             myFileName = fileName.substring(index + 1);
             myPath = fileName.substring(0, index + 1);
         }
-        // System.err.printf("full = %s\nshort = %s\n", myPath, myFileName);
     }
 
     // creates an image from the given file
@@ -364,9 +361,8 @@ public class ImageResource {
         try {
             setPath(fileName);
             myImage = image;
-            myDisplay = new ImageFrame(fileName, image);
+            myDisplay = new ImageFrame(fileName);
             myPixels = imageToPixels(myImage);
-            // System.out.printf("init: %d %d %s\n", getWidth(), getHeight(), myPath);
         }
         catch (Exception e) {
             throw new ResourceException("ImageResource: not an image file " + fileName);

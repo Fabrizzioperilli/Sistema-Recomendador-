@@ -14,6 +14,9 @@ public class EfficientRater implements Rater {
 	private HashMap<String, Rating> myRatings;
 
 	public EfficientRater(String id) {
+		if (!id.getClass().equals(String.class)) {
+			throw new IllegalArgumentException("Invalid EfficientRater argument");
+		}
 		myID = id;
 		myRatings = new HashMap<>();
 	}

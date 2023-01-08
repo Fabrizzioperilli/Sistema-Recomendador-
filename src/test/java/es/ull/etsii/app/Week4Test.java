@@ -28,6 +28,12 @@ public class Week4Test {
         otherRater.addRating("6574", 10.0);
         otherRater.addRating("2354", 9.0);
 	}
+
+	@Test
+	@DisplayName("Test Rater with invalid format")
+	void testRaterInvalidFormat() {
+		assertThrows(NullPointerException.class, () -> new EfficientRater(null));
+	}
 	
 	@Test
 	@DisplayName("Test the results for the dotProduct method")
@@ -45,7 +51,9 @@ public class Week4Test {
 	void testFlightNumberInvalidFormat() {
 		assertThrows(IllegalArgumentException.class, () -> {  // line 22-24 EfficientRater
 			meRater.addRating("1234", -1.0);
+			meRater.addRating(null, 5.0);
 			otherRater.addRating("5678", -1.0);
+			otherRater.addRating(null, 0);
 		});
 	}
 }

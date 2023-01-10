@@ -35,7 +35,7 @@ public class RecommendationRunner implements Recommender {
 
 		ArrayList<Rating> recList = fr.getSimilarRatings(webRaterID, numSimilarRaters, minimalRaters);
 
-		if (recList.size() == 0) {
+		if (recList.isEmpty()) {
 			printError();
 		} else {
 			printUpperPart();
@@ -48,7 +48,7 @@ public class RecommendationRunner implements Recommender {
 					System.out.println("<tr class=\"odd_rows\"><td>" + i + "</td>");
 				}
 
-				String URL = MovieDatabase.getPoster(r.getItem());
+				String url = MovieDatabase.getPoster(r.getItem());
 				String title = MovieDatabase.getTitle(r.getItem());
 				String country = MovieDatabase.getCountry(r.getItem());
 				int year = MovieDatabase.getYear(r.getItem());
@@ -57,8 +57,8 @@ public class RecommendationRunner implements Recommender {
 
 				System.out.println("<td><table><tr><td class = \"pic\">");
 
-				if (URL.length() > 3) {
-					System.out.println("<img src = \"" + URL + "\" target=_blank></td>");
+				if (url.length() > 3) {
+					System.out.println("<img src = \"" + url + "\" target=_blank></td>");
 				}
 
 				System.out.println("<td><h3>" + title + "</h3>");

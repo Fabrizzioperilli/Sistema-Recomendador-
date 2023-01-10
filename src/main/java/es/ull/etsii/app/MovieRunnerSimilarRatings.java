@@ -60,7 +60,7 @@ public class MovieRunnerSimilarRatings {
 		MovieDatabase.initialize(moviefile);
 		RaterDatabase.initialize(ratingsfile);
 
-		String id = new String("337");
+		String id = "337";
 		ArrayList<Rating> weightedRatings = fr.getSimilarRatings(id, 10, 3);
 		Collections.sort(weightedRatings, Collections.reverseOrder());
 		for (Rating r : weightedRatings) {
@@ -75,7 +75,7 @@ public class MovieRunnerSimilarRatings {
 		RaterDatabase.initialize(ratingsfile);
 
 		Filter f = new GenreFilter("Mystery");
-		String id = new String("964");
+		String id = "964";
 		ArrayList<Rating> weightedRatings = fr.getSimilarRatingsByFilter(id, 20, 5, f);
 		Collections.sort(weightedRatings, Collections.reverseOrder());
 		for (Rating r : weightedRatings) {
@@ -92,7 +92,7 @@ public class MovieRunnerSimilarRatings {
 
 		Filter f = new DirectorsFilter(
 				"Clint Eastwood,J.J. Abrams,Alfred Hitchcock,Sydney Pollack,David Cronenberg,Oliver Stone,Mike Leigh");
-		String id = new String("120");
+		String id = "120";
 		ArrayList<Rating> weightedRatings = fr.getSimilarRatingsByFilter(id, 10, 2, f);
 		Collections.sort(weightedRatings, Collections.reverseOrder());
 		for (Rating r : weightedRatings) {
@@ -110,7 +110,7 @@ public class MovieRunnerSimilarRatings {
 		AllFilters f = new AllFilters();
 		f.addFilter(new GenreFilter("Drama"));
 		f.addFilter(new MinutesFilter(80, 160));
-		String id = new String("168");
+		String id = "168";
 		ArrayList<Rating> weightedRatings = fr.getSimilarRatingsByFilter(id, 10, 3, f);
 		Collections.sort(weightedRatings, Collections.reverseOrder());
 		for (Rating r : weightedRatings) {
@@ -129,7 +129,7 @@ public class MovieRunnerSimilarRatings {
 		AllFilters f = new AllFilters();
 		f.addFilter(new YearAfterFilter(1975));
 		f.addFilter(new MinutesFilter(70, 200));
-		String id = new String("314");
+		String id = "314";
 		ArrayList<Rating> weightedRatings = fr.getSimilarRatingsByFilter(id, 10, 5, f);
 		Collections.sort(weightedRatings, Collections.reverseOrder());
 		for (Rating r : weightedRatings) {

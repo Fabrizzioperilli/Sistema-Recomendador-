@@ -1,11 +1,12 @@
 package es.ull.etsii.app;
 
 /**
- * Write a description of GenreFilter here.
+ * GenreFilter implements Filter interface to return true if a movie satisfies this genre (movies may have several genres).
  * 
- * @author (your name)
- * @version (a version number or a date)
+ * @author Carlos González Mendoza, Fabrizzio Daniell Perilli Martín, Francisco Javier García González
+ * @version 1.0
  */
+
 public class GenreFilter implements Filter {
 	private String genre;
 

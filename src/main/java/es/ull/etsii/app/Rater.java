@@ -1,10 +1,10 @@
 package es.ull.etsii.app;
 
 /**
- * Write a description of Rater here.
+ * Rater interface provides methods to the class that implements it.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Carlos González Mendoza, Fabrizzio Daniell Perilli Martín, Francisco Javier García González
+ * @version 1.0
  */
 
 import java.util.*;

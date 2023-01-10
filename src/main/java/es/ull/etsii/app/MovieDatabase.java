@@ -1,5 +1,12 @@
 package es.ull.etsii.app;
 
+/**
+ * MovieDatabase stores movie information in a HashMap for fast lookup of movie information given a movie ID. The class also allows filtering movies based on queries.
+ * 
+ * @author Carlos González Mendoza, Fabrizzio Daniell Perilli Martín, Francisco Javier García González
+ * @version 1.0
+ */
+
 import java.util.*;
 
 

@@ -1,10 +1,10 @@
 package es.ull.etsii.app;
 
 /**
- * Write a description of class Rater here.
+ * PlainRater implements Rater interface and keeps track of one rater and all their ratings.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Carlos González Mendoza, Fabrizzio Daniell Perilli Martín, Francisco Javier García González
+ * @version 1.0
  */
 
 import java.util.*;

@@ -1,4 +1,12 @@
 package es.ull.etsii.app;
+
+/**
+ * Rating is also a POJO class for storing the data about one rating of an item.
+ * 
+ * @author Carlos González Mendoza, Fabrizzio Daniell Perilli Martín, Francisco Javier García González
+ * @version 1.0
+ */
+
 // An immutable passive data object (PDO) to represent the rating data
 public class Rating implements Comparable<Rating> {
 	private String item;

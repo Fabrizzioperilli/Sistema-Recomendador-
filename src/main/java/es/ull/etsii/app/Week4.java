@@ -1,5 +1,12 @@
 package es.ull.etsii.app;
 
+/**
+ * Week4 is the main class for the correct execution of the program.
+ * 
+ * @author Carlos González Mendoza, Fabrizzio Daniell Perilli Martín, Francisco Javier García González
+ * @version 2.0 (08/01/2023)
+ */
+
 class Week4 {
 	public static void main(String[] args) {
 		FourthRatings fourthRatings = new FourthRatings();
@@ -22,16 +29,15 @@ class Week4 {
 		System.out.println(fourthRatings.dotProduct(meRater, otherRater));
 		
 		MovieRunnerSimilarRatings quiz = new MovieRunnerSimilarRatings();
+		System.out.println("\n- Similar Ratings:\n");
 		quiz.printSimilarRatings();
-		System.out.println("---");
+		System.out.println("\n- Similar Ratings by Genre:\n");
 		quiz.printSimilarRatingsByGenre();
-		System.out.println("---");
-		quiz.printSimilarRatings();
-		System.out.println("---");
+		System.out.println("\n- Similar Ratings by Director:\n");
 		quiz.printSimilarRatingsByDirector();
-		System.out.println("---");
+		System.out.println("\n- Similar Ratings by Genre and Minutes:\n");
 		quiz.printSimilarRatingsByGenreAndMinutes();
-		System.out.println("---");
-		    quiz.printSimilarRatingsByYearAfterAndMinutes();
+		System.out.println("\n- Similar Ratings by Year After and Minutes:\n");
+		quiz.printSimilarRatingsByYearAfterAndMinutes();
 	}
 }

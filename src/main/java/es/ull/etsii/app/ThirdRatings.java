@@ -1,11 +1,12 @@
 package es.ull.etsii.app;
 
 /**
- * Write a description of ThirdRatings here.
+ * ThirdRatings has only one private variable named myRaters to store an ArrayList of Raters.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Carlos González Mendoza, Fabrizzio Daniell Perilli Martín, Francisco Javier García González
+ * @version 2.0 (08/01/2023)
  */
+
 import java.util.*;
 
 public class ThirdRatings {

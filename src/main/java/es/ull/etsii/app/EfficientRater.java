@@ -1,10 +1,10 @@
 package es.ull.etsii.app;
 
 /**
- * Write a description of EfficientRater here.
+ * EfficientRater implements Rater interface to create an efficient rater structure using an ID and a HashMap of ratings.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Carlos González Mendoza, Fabrizzio Daniell Perilli Martín, Francisco Javier García González
+ * @version 2.0 (08/01/2023)
  */
 
 import java.util.*;

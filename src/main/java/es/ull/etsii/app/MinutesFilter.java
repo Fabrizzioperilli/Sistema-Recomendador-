@@ -1,11 +1,12 @@
 package es.ull.etsii.app;
 
 /**
- * Write a description of MInutesFilter here.
+ * MinutesFilter implements filter interface to return true if a movie's running time is at least min minutes and no more than max minutes.
  * 
- * @author (your name)
- * @version (a version number or a date)
+ * @author Carlos González Mendoza, Fabrizzio Daniell Perilli Martín, Francisco Javier García González
+ * @version 1.0
  */
+
 public class MinutesFilter implements Filter {
 	private int min;
 	private int max;

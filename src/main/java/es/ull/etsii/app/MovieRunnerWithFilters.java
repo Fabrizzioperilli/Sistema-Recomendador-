@@ -1,11 +1,12 @@
 package es.ull.etsii.app;
 
 /**
- * Write a description of MovieRunnerWithFilters here.
+ * MovieRunnerWithFilters is used to find the average rating of movies using different filters.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Carlos González Mendoza, Fabrizzio Daniell Perilli Martín, Francisco Javier García González
+ * @version 1.0
  */
+
 import java.util.*;
 import java.util.logging.Level;
 import java.util.logging.Logger;

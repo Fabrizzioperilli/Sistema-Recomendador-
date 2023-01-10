@@ -1,5 +1,11 @@
 package es.ull.etsii.app;
 
+/**
+ * Movie represents movies and all their attributes and methods.
+ * 
+ * @author Carlos González Mendoza, Fabrizzio Daniell Perilli Martín, Francisco Javier García González
+ * @version 1.0
+ */
 
 // An immutable passive data object (PDO) to represent item data
 public class Movie {

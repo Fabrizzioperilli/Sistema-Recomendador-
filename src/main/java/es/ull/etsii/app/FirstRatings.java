@@ -1,10 +1,10 @@
 package es.ull.etsii.app;
 
 /**
- * Write a description of FirstRatings here.
+ * FirstRatings is created to read in and store information about movies and ratings of movies by different movie raters.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Carlos González Mendoza, Fabrizzio Daniell Perilli Martín, Francisco Javier García González
+ * @version 1.0
  */
 
 import edu.duke.*;

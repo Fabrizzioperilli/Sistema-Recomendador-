@@ -1,10 +1,12 @@
 package es.ull.etsii.app;
+
 /**
- * Write a description of DirectorsFilter here.
+ * DirectorsFilters implements Filter interface to create a String[] structure of directors.
  * 
- * @author (your name)
- * @version (a version number or a date)
+ * @author Carlos González Mendoza, Fabrizzio Daniell Perilli Martín, Francisco Javier García González
+ * @version 1.0
  */
+
 public class DirectorsFilter implements Filter {
 	private String[] dirList;
 

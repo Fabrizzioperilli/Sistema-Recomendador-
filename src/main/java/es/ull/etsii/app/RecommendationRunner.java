@@ -1,11 +1,12 @@
 package es.ull.etsii.app;
 
 /**
- * Write a description of RecommendationRunner here.
+ * RecommendationRunner implements Recommender interface to allow your code to be integrated with our website.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Carlos González Mendoza, Fabrizzio Daniell Perilli Martín, Francisco Javier García González
+ * @version 1.0
  */
+
 import java.util.*;
 import java.security.SecureRandom;
 

@@ -1,0 +1,135 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.3"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Sistema Recomendador: Sistema Recomendador de películas</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Sistema Recomendador<span id="projectnumber">&#160;1.0</span>
+   </div>
+   <div id="projectbrief">Sistema Recomendador de Películas</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.9.3 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search",'Buscar','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div><div class="header">
+  <div class="headertitle"><div class="title">Sistema Recomendador de películas </div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><h1><a class="anchor" id="autotoc_md1"></a>
+Contenidos</h1>
+<ul>
+<li>Proyecto</li>
+<li>¿Qué es un sistema recomendador de películas?</li>
+<li>Acerca del proyecto</li>
+<li>Modo de uso</li>
+<li>Hitos</li>
+<li>Autores</li>
+</ul>
+<hr  />
+<h1><a class="anchor" id="autotoc_md3"></a>
+Proyecto</h1>
+<h2><a class="anchor" id="autotoc_md4"></a>
+¿Qué es un sistema recomendador de películas?</h2>
+<p >Un sistema recomendador de películas es una aplicación que utiliza algoritmos de aprendizaje automático para predecir y recomendar películas a un usuario en función de su historial de visualización y preferencias donde se analiza el contenido de cada película (por ejemplo, el género, la trama, etc..). Los sistemas recomendadores de películas se utilizan a menudo en plataformas de streaming de video, como Netflix, HBO, Hulu, etc.. para ayudar a los usuarios a descubrir nuevas películas de interés.</p>
+<h2><a class="anchor" id="autotoc_md5"></a>
+Acerca del proyecto:</h2>
+<p >Para una documentación en profundidad acerca del proceso de trabajo del grupo en lo que respecta al proyecto en cuestión, se recomienda hacer uso del informe asociado al proyecto.</p>
+<p >Tras la realización de diversos estudios y evaluaciones previas sobre metodologías y herramientas que permiten mejorar la calidad y el proceso de construcción de software, se realizó una propuesta para el desarrollo de un proyecto final de forma grupal, con el objetivo de reforzar y unificar los conocimientos adquiridos en la asignatura.</p>
+<p >A modo de introducción, se pueden destacar las herramientas empleadas de cara a asegurar una correcta metodología de trabajo que asegura cierta calidad en el código siguiendo con las prácticas de integración continua (CI). Estas son:</p><ul>
+<li>SonarCloud</li>
+<li>Maven</li>
+<li>Jenkins</li>
+<li>CircleCI</li>
+<li>Plugins que apoyan a estas herramientas para distintos propósitos como las creación de tests, generación automática de la documentación (Doxygen), etc.</li>
+<li>Otras herramientas para el desarrollo del código (IDE) como, por ejemplo, Visual Studio Code y Eclipse.</li>
+</ul>
+<hr  />
+<h1><a class="anchor" id="autotoc_md7"></a>
+Modo de uso</h1>
+<p >Para poder ejecutar el proyecto, se debe tener instalado Maven y Java 8 . Para ello, se recomienda seguir los siguientes pasos:</p>
+<ol type="1">
+<li>Clonar el repositorio en local <div class="fragment"><div class="line">$ git clone git@github.com:Fabrizzioperilli/Sistema-Recomendador-.git</div>
+</div><!-- fragment --></li>
+<li>Acceder a la raíz del proyecto</li>
+<li>Compilar el proyecto <div class="fragment"><div class="line">$ mvn compile</div>
+</div><!-- fragment --></li>
+</ol>
+<hr  />
+<h1><a class="anchor" id="autotoc_md9"></a>
+Hitos</h1>
+<ol type="1">
+<li>Línea Base - Primer Hito realizado el 01/12/2022</li>
+<li>Línea Base - Segundo Hito realizado el 22/12/2022</li>
+</ol>
+<hr  />
+<h1><a class="anchor" id="autotoc_md11"></a>
+Autores</h1>
+<ul>
+<li>Carlos González Mendoza - <a href="#" onclick="location.href='mai'+'lto:'+'alu'+'01'+'010'+'25'+'407'+'@u'+'ll.'+'ed'+'u.e'+'s'; return false;">alu01<span class="obfuscator">.nosp@m.</span>0102<span class="obfuscator">.nosp@m.</span>5407@<span class="obfuscator">.nosp@m.</span>ull.<span class="obfuscator">.nosp@m.</span>edu.e<span class="obfuscator">.nosp@m.</span>s</a></li>
+<li>Fabrizzio Daniell Perilli Martín - <a href="#" onclick="location.href='mai'+'lto:'+'alu'+'01'+'011'+'38'+'589'+'@u'+'ll.'+'ed'+'u.e'+'s'; return false;">alu01<span class="obfuscator">.nosp@m.</span>0113<span class="obfuscator">.nosp@m.</span>8589@<span class="obfuscator">.nosp@m.</span>ull.<span class="obfuscator">.nosp@m.</span>edu.e<span class="obfuscator">.nosp@m.</span>s</a></li>
+<li>Francisco Javier García González - <a href="#" onclick="location.href='mai'+'lto:'+'alu'+'01'+'010'+'30'+'562'+'@u'+'ll.'+'ed'+'u.e'+'s'; return false;">alu01<span class="obfuscator">.nosp@m.</span>0103<span class="obfuscator">.nosp@m.</span>0562@<span class="obfuscator">.nosp@m.</span>ull.<span class="obfuscator">.nosp@m.</span>edu.e<span class="obfuscator">.nosp@m.</span>s</a></li>
+</ul>
+<hr  />
+<p ><a href="https://sonarcloud.io/summary/new_code?id=Fabrizzioperilli_Sistema-Recomendador-"><img src="https://sonarcloud.io/api/project_badges/measure?project=Fabrizzioperilli_Sistema-Recomendador-&amp;metric=alert_status" alt="Quality Gate Status" class="inline"/></a> <a href="https://sonarcloud.io/summary/new_code?id=Fabrizzioperilli_Sistema-Recomendador-"><img src="https://sonarcloud.io/api/project_badges/measure?project=Fabrizzioperilli_Sistema-Recomendador-&amp;metric=bugs" alt="Bugs" class="inline"/></a> <a href="https://sonarcloud.io/summary/new_code?id=Fabrizzioperilli_Sistema-Recomendador-"><img src="https://sonarcloud.io/api/project_badges/measure?project=Fabrizzioperilli_Sistema-Recomendador-&amp;metric=vulnerabilities" alt="Vulnerabilities" class="inline"/></a> <a href="https://sonarcloud.io/summary/new_code?id=Fabrizzioperilli_Sistema-Recomendador-"><img src="https://sonarcloud.io/api/project_badges/measure?project=Fabrizzioperilli_Sistema-Recomendador-&amp;metric=security_rating" alt="Security Rating" class="inline"/></a> <a href="https://sonarcloud.io/summary/new_code?id=Fabrizzioperilli_Sistema-Recomendador-"><img src="https://sonarcloud.io/api/project_badges/measure?project=Fabrizzioperilli_Sistema-Recomendador-&amp;metric=reliability_rating" alt="Reliability Rating" class="inline"/></a> <a href="https://sonarcloud.io/summary/new_code?id=Fabrizzioperilli_Sistema-Recomendador-"><img src="https://sonarcloud.io/api/project_badges/measure?project=Fabrizzioperilli_Sistema-Recomendador-&amp;metric=ncloc" alt="Lines of Code" class="inline"/></a></p>
+<p ><img src="https://img.shields.io/github/actions/workflow/status/FabrizzioPerilli/Sistema-Recomendador-/maven.yml" alt="GitHub Workflow Status" class="inline"/> <img src="https://img.shields.io/github/repo-size/FabrizzioPerilli/Sistema-Recomendador-" alt="GitHub repo size" class="inline"/> <img src="https://img.shields.io/github/last-commit/FabrizzioPerilli/Sistema-Recomendador-" alt="GitHub last commit" class="inline"/></p>
+<p ><a href="https://sonarcloud.io/summary/new_code?id=Fabrizzioperilli_Sistema-Recomendador-"><img src="https://sonarcloud.io/images/project_badges/sonarcloud-white.svg" alt="SonarCloud" style="pointer-events: none;" class="inline"/></a></p>
+<hr  />
+ </div></div><!-- contents -->
+</div><!-- PageDoc -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3
+</small></address>
+</body>
+</html>

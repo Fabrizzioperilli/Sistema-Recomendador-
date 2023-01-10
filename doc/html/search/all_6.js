@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['plainrater_0',['PlainRater',['../class_plain_rater.html',1,'']]],
-  ['printrecommendationsfor_1',['printRecommendationsFor',['../class_recommendation_runner.html#ac216526072926d17c7522e7af489581c',1,'RecommendationRunner.printRecommendationsFor()'],['../interface_recommender.html#ab11eabde261256c600435497412815b4',1,'Recommender.printRecommendationsFor()']]]
+  ['imageresource_0',['ImageResource',['../classedu_1_1duke_1_1_image_resource.html',1,'edu.duke.ImageResource'],['../classedu_1_1duke_1_1_image_resource.html#a33af371a101e8d364ab27cc63832c7e2',1,'edu.duke.ImageResource.ImageResource()'],['../classedu_1_1duke_1_1_image_resource.html#a02c2ccfa2332f8c851faf8cffd2f62c8',1,'edu.duke.ImageResource.ImageResource(int width, int height)'],['../classedu_1_1duke_1_1_image_resource.html#aab6b25ba8b3b5179b4b508f21e869eda',1,'edu.duke.ImageResource.ImageResource(String fileName)'],['../classedu_1_1duke_1_1_image_resource.html#a8d8dc8f62f84ba82809baa5d2071dfd5',1,'edu.duke.ImageResource.ImageResource(File file)'],['../classedu_1_1duke_1_1_image_resource.html#af25b1e060ef36478e6edc737a88592b9',1,'edu.duke.ImageResource.ImageResource(ImageResource other)']]]
 ];

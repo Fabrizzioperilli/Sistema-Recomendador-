@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['filter_0',['Filter',['../interface_filter.html',1,'']]],
-  ['firstratings_1',['FirstRatings',['../class_first_ratings.html',1,'']]],
-  ['fourthratings_2',['FourthRatings',['../class_fourth_ratings.html',1,'']]]
+  ['duke_0',['duke',['../namespaceedu_1_1duke.html',1,'edu']]],
+  ['efficientrater_1',['EfficientRater',['../classes_1_1ull_1_1etsii_1_1app_1_1_efficient_rater.html',1,'es::ull::etsii::app']]]
 ];

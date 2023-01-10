@@ -1,8 +1,6 @@
 var searchData=
 [
-  ['rater_0',['Rater',['../interface_rater.html',1,'']]],
-  ['raterdatabase_1',['RaterDatabase',['../class_rater_database.html',1,'']]],
-  ['rating_2',['Rating',['../class_rating.html',1,'']]],
-  ['recommendationrunner_3',['RecommendationRunner',['../class_recommendation_runner.html',1,'']]],
-  ['recommender_4',['Recommender',['../interface_recommender.html',1,'']]]
+  ['pixel_0',['Pixel',['../classedu_1_1duke_1_1_pixel.html',1,'edu::duke']]],
+  ['plainrater_1',['PlainRater',['../classes_1_1ull_1_1etsii_1_1app_1_1_plain_rater.html',1,'es::ull::etsii::app']]],
+  ['point_2',['Point',['../classedu_1_1duke_1_1_point.html',1,'edu::duke']]]
 ];

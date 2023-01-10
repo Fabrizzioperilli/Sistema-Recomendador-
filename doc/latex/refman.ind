@@ -1,116 +1,298 @@
 \begin{theindex}
 
+  \item {add}
+    \subitem {edu.duke.StorageResource}, \hyperpage{49}
+  \item {addPoint}
+    \subitem {edu.duke.Shape}, \hyperpage{47}
   \item {addRating}
-    \subitem {EfficientRater}, \hyperpage{8}
-    \subitem {PlainRater}, \hyperpage{16}
-  \item {AllFilters}, \hyperpage{5}
-    \subitem {satisfies}, \hyperpage{6}
+    \subitem {es.ull.etsii.app.EfficientRater}, \hyperpage{15}
+    \subitem {es.ull.etsii.app.PlainRater}, \hyperpage{35}
+  \item {asString}
+    \subitem {edu.duke.FileResource}, \hyperpage{18}
+    \subitem {edu.duke.URLResource}, \hyperpage{53}
 
   \indexspace
 
-  \item {DirectorsFilter}, \hyperpage{6}
-    \subitem {satisfies}, \hyperpage{7}
+  \item {clear}
+    \subitem {edu.duke.StorageResource}, \hyperpage{49}
+  \item {contains}
+    \subitem {edu.duke.StorageResource}, \hyperpage{49}
 
   \indexspace
 
-  \item {EfficientRater}, \hyperpage{7}
-    \subitem {addRating}, \hyperpage{8}
-    \subitem {getID}, \hyperpage{8}
-    \subitem {getItemsRated}, \hyperpage{8}
-    \subitem {getRating}, \hyperpage{9}
-    \subitem {hasRating}, \hyperpage{9}
-    \subitem {numRatings}, \hyperpage{9}
+  \item {data}
+    \subitem {edu.duke.StorageResource}, \hyperpage{50}
+  \item {DirectoryResource}
+    \subitem {edu.duke.DirectoryResource}, \hyperpage{13}
+  \item {distance}
+    \subitem {edu.duke.Point}, \hyperpage{37}
+  \item {draw}
+    \subitem {edu.duke.ImageResource}, \hyperpage{26}
 
   \indexspace
 
-  \item {Filter}, \hyperpage{9}
-  \item {FirstRatings}, \hyperpage{10}
-  \item {FourthRatings}, \hyperpage{10}
-
-  \indexspace
-
-  \item {GenreFilter}, \hyperpage{11}
+  \item {edu.duke}, \hyperpage{9}
+  \item {edu.duke.DirectoryResource}, \hyperpage{13}
+    \subitem {DirectoryResource}, \hyperpage{13}
+    \subitem {selectedFiles}, \hyperpage{14}
+  \item {edu.duke.FileResource}, \hyperpage{15}
+    \subitem {asString}, \hyperpage{18}
+    \subitem {FileResource}, \hyperpage{16--18}
+    \subitem {getCSVHeaders}, \hyperpage{19}
+    \subitem {getCSVParser}, \hyperpage{19, 20}
+    \subitem {lines}, \hyperpage{20}
+    \subitem {words}, \hyperpage{20}
+    \subitem {write}, \hyperpage{20, 21}
+  \item {edu.duke.ImageResource}, \hyperpage{24}
+    \subitem {draw}, \hyperpage{26}
+    \subitem {getFileName}, \hyperpage{26}
+    \subitem {getHeight}, \hyperpage{26}
+    \subitem {getPixel}, \hyperpage{26}
+    \subitem {getWidth}, \hyperpage{27}
+    \subitem {ImageResource}, \hyperpage{25, 26}
+    \subitem {pixels}, \hyperpage{27}
+    \subitem {save}, \hyperpage{27}
+    \subitem {saveAs}, \hyperpage{27}
+    \subitem {setFileName}, \hyperpage{28}
+    \subitem {setPixel}, \hyperpage{28}
+    \subitem {toString}, \hyperpage{28}
+  \item {edu.duke.Pixel}, \hyperpage{31}
+    \subitem {getAlpha}, \hyperpage{32}
+    \subitem {getBlue}, \hyperpage{32}
+    \subitem {getGreen}, \hyperpage{32}
+    \subitem {getRed}, \hyperpage{33}
+    \subitem {getX}, \hyperpage{33}
+    \subitem {getY}, \hyperpage{33}
+    \subitem {Pixel}, \hyperpage{32}
+    \subitem {setAlpha}, \hyperpage{33}
+    \subitem {setBlue}, \hyperpage{33}
+    \subitem {setGreen}, \hyperpage{34}
+    \subitem {setRed}, \hyperpage{34}
+    \subitem {toString}, \hyperpage{34}
+  \item {edu.duke.Point}, \hyperpage{36}
+    \subitem {distance}, \hyperpage{37}
+    \subitem {getX}, \hyperpage{37}
+    \subitem {getY}, \hyperpage{37}
+    \subitem {Point}, \hyperpage{37}
+    \subitem {toString}, \hyperpage{37}
+  \item {edu.duke.RangeResource}, \hyperpage{38}
+    \subitem {RangeResource}, \hyperpage{38, 39}
+    \subitem {sequence}, \hyperpage{40}
+    \subitem {toString}, \hyperpage{40}
+  \item {edu.duke.ResourceException}, \hyperpage{45}
+  \item {edu.duke.Shape}, \hyperpage{46}
+    \subitem {addPoint}, \hyperpage{47}
+    \subitem {getLastPoint}, \hyperpage{48}
+    \subitem {getPoints}, \hyperpage{48}
+    \subitem {Shape}, \hyperpage{47}
+  \item {edu.duke.StorageResource}, \hyperpage{48}
+    \subitem {add}, \hyperpage{49}
+    \subitem {clear}, \hyperpage{49}
+    \subitem {contains}, \hyperpage{49}
+    \subitem {data}, \hyperpage{50}
+    \subitem {size}, \hyperpage{50}
+    \subitem {StorageResource}, \hyperpage{49}
+  \item {edu.duke.URLResource}, \hyperpage{52}
+    \subitem {asString}, \hyperpage{53}
+    \subitem {getCSVHeaders}, \hyperpage{53}
+    \subitem {getCSVParser}, \hyperpage{53, 54}
+    \subitem {lines}, \hyperpage{54}
+    \subitem {URLResource}, \hyperpage{52}
+    \subitem {words}, \hyperpage{55}
+  \item {es.ull.etsii.app.AllFilters}, \hyperpage{11}
     \subitem {satisfies}, \hyperpage{12}
+  \item {es.ull.etsii.app.DirectorsFilter}, \hyperpage{12}
+    \subitem {satisfies}, \hyperpage{13}
+  \item {es.ull.etsii.app.EfficientRater}, \hyperpage{14}
+    \subitem {addRating}, \hyperpage{15}
+    \subitem {getID}, \hyperpage{15}
+    \subitem {getItemsRated}, \hyperpage{15}
+    \subitem {getRating}, \hyperpage{15}
+    \subitem {hasRating}, \hyperpage{15}
+    \subitem {numRatings}, \hyperpage{15}
+  \item {es.ull.etsii.app.Filter}, \hyperpage{22}
+  \item {es.ull.etsii.app.FirstRatings}, \hyperpage{22}
+  \item {es.ull.etsii.app.FourthRatings}, \hyperpage{22}
+  \item {es.ull.etsii.app.GenreFilter}, \hyperpage{23}
+    \subitem {satisfies}, \hyperpage{24}
+  \item {es.ull.etsii.app.MinutesFilter}, \hyperpage{29}
+    \subitem {satisfies}, \hyperpage{29}
+  \item {es.ull.etsii.app.Movie}, \hyperpage{30}
+  \item {es.ull.etsii.app.MovieDatabase}, \hyperpage{30}
+  \item {es.ull.etsii.app.MovieRunnerAverage}, \hyperpage{31}
+  \item {es.ull.etsii.app.MovieRunnerSimilarRatings}, \hyperpage{31}
+  \item {es.ull.etsii.app.MovieRunnerWithFilters}, \hyperpage{31}
+  \item {es.ull.etsii.app.PlainRater}, \hyperpage{35}
+    \subitem {addRating}, \hyperpage{35}
+    \subitem {getID}, \hyperpage{35}
+    \subitem {getItemsRated}, \hyperpage{36}
+    \subitem {getRating}, \hyperpage{36}
+    \subitem {hasRating}, \hyperpage{36}
+    \subitem {numRatings}, \hyperpage{36}
+  \item {es.ull.etsii.app.Rater}, \hyperpage{40}
+  \item {es.ull.etsii.app.RaterDatabase}, \hyperpage{41}
+  \item {es.ull.etsii.app.Rating}, \hyperpage{41}
+  \item {es.ull.etsii.app.RecommendationRunner}, \hyperpage{42}
+    \subitem {getItemsToRate}, \hyperpage{43}
+    \subitem {printRecommendationsFor}, \hyperpage{43}
+  \item {es.ull.etsii.app.Recommender}, \hyperpage{44}
+    \subitem {getItemsToRate}, \hyperpage{44}
+    \subitem {printRecommendationsFor}, \hyperpage{44}
+  \item {es.ull.etsii.app.SecondRatings}, \hyperpage{46}
+  \item {es.ull.etsii.app.SimpleService}, \hyperpage{48}
+  \item {es.ull.etsii.app.ThirdRatings}, \hyperpage{50}
+  \item {es.ull.etsii.app.TrueFilter}, \hyperpage{51}
+    \subitem {satisfies}, \hyperpage{51}
+  \item {es.ull.etsii.app.YearAfterFilter}, \hyperpage{55}
+    \subitem {satisfies}, \hyperpage{56}
+
+  \indexspace
+
+  \item {FileResource}
+    \subitem {edu.duke.FileResource}, \hyperpage{16--18}
+
+  \indexspace
+
+  \item {getAlpha}
+    \subitem {edu.duke.Pixel}, \hyperpage{32}
+  \item {getBlue}
+    \subitem {edu.duke.Pixel}, \hyperpage{32}
+  \item {getCSVHeaders}
+    \subitem {edu.duke.FileResource}, \hyperpage{19}
+    \subitem {edu.duke.URLResource}, \hyperpage{53}
+  \item {getCSVParser}
+    \subitem {edu.duke.FileResource}, \hyperpage{19, 20}
+    \subitem {edu.duke.URLResource}, \hyperpage{53, 54}
+  \item {getFileName}
+    \subitem {edu.duke.ImageResource}, \hyperpage{26}
+  \item {getGreen}
+    \subitem {edu.duke.Pixel}, \hyperpage{32}
+  \item {getHeight}
+    \subitem {edu.duke.ImageResource}, \hyperpage{26}
   \item {getID}
-    \subitem {EfficientRater}, \hyperpage{8}
-    \subitem {PlainRater}, \hyperpage{16}
+    \subitem {es.ull.etsii.app.EfficientRater}, \hyperpage{15}
+    \subitem {es.ull.etsii.app.PlainRater}, \hyperpage{35}
   \item {getItemsRated}
-    \subitem {EfficientRater}, \hyperpage{8}
-    \subitem {PlainRater}, \hyperpage{16}
+    \subitem {es.ull.etsii.app.EfficientRater}, \hyperpage{15}
+    \subitem {es.ull.etsii.app.PlainRater}, \hyperpage{36}
   \item {getItemsToRate}
-    \subitem {RecommendationRunner}, \hyperpage{20}
-    \subitem {Recommender}, \hyperpage{21}
+    \subitem {es.ull.etsii.app.RecommendationRunner}, \hyperpage{43}
+    \subitem {es.ull.etsii.app.Recommender}, \hyperpage{44}
+  \item {getLastPoint}
+    \subitem {edu.duke.Shape}, \hyperpage{48}
+  \item {getPixel}
+    \subitem {edu.duke.ImageResource}, \hyperpage{26}
+  \item {getPoints}
+    \subitem {edu.duke.Shape}, \hyperpage{48}
   \item {getRating}
-    \subitem {EfficientRater}, \hyperpage{9}
-    \subitem {PlainRater}, \hyperpage{16}
+    \subitem {es.ull.etsii.app.EfficientRater}, \hyperpage{15}
+    \subitem {es.ull.etsii.app.PlainRater}, \hyperpage{36}
+  \item {getRed}
+    \subitem {edu.duke.Pixel}, \hyperpage{33}
+  \item {getWidth}
+    \subitem {edu.duke.ImageResource}, \hyperpage{27}
+  \item {getX}
+    \subitem {edu.duke.Pixel}, \hyperpage{33}
+    \subitem {edu.duke.Point}, \hyperpage{37}
+  \item {getY}
+    \subitem {edu.duke.Pixel}, \hyperpage{33}
+    \subitem {edu.duke.Point}, \hyperpage{37}
 
   \indexspace
 
   \item {hasRating}
-    \subitem {EfficientRater}, \hyperpage{9}
-    \subitem {PlainRater}, \hyperpage{16}
+    \subitem {es.ull.etsii.app.EfficientRater}, \hyperpage{15}
+    \subitem {es.ull.etsii.app.PlainRater}, \hyperpage{36}
 
   \indexspace
 
-  \item {MinutesFilter}, \hyperpage{12}
-    \subitem {satisfies}, \hyperpage{13}
-  \item {Movie}, \hyperpage{13}
-  \item {MovieDatabase}, \hyperpage{14}
-  \item {MovieRunnerAverage}, \hyperpage{14}
-  \item {MovieRunnerSimilarRatings}, \hyperpage{14}
-  \item {MovieRunnerWithFilters}, \hyperpage{15}
+  \item {ImageResource}
+    \subitem {edu.duke.ImageResource}, \hyperpage{25, 26}
+
+  \indexspace
+
+  \item {lines}
+    \subitem {edu.duke.FileResource}, \hyperpage{20}
+    \subitem {edu.duke.URLResource}, \hyperpage{54}
 
   \indexspace
 
   \item {numRatings}
-    \subitem {EfficientRater}, \hyperpage{9}
-    \subitem {PlainRater}, \hyperpage{17}
+    \subitem {es.ull.etsii.app.EfficientRater}, \hyperpage{15}
+    \subitem {es.ull.etsii.app.PlainRater}, \hyperpage{36}
 
   \indexspace
 
-  \item {PlainRater}, \hyperpage{15}
-    \subitem {addRating}, \hyperpage{16}
-    \subitem {getID}, \hyperpage{16}
-    \subitem {getItemsRated}, \hyperpage{16}
-    \subitem {getRating}, \hyperpage{16}
-    \subitem {hasRating}, \hyperpage{16}
-    \subitem {numRatings}, \hyperpage{17}
+  \item {Pixel}
+    \subitem {edu.duke.Pixel}, \hyperpage{32}
+  \item {pixels}
+    \subitem {edu.duke.ImageResource}, \hyperpage{27}
+  \item {Point}
+    \subitem {edu.duke.Point}, \hyperpage{37}
   \item {printRecommendationsFor}
-    \subitem {RecommendationRunner}, \hyperpage{20}
-    \subitem {Recommender}, \hyperpage{21}
+    \subitem {es.ull.etsii.app.RecommendationRunner}, \hyperpage{43}
+    \subitem {es.ull.etsii.app.Recommender}, \hyperpage{44}
 
   \indexspace
 
-  \item {Rater}, \hyperpage{17}
-  \item {RaterDatabase}, \hyperpage{18}
-  \item {Rating}, \hyperpage{18}
-  \item {RecommendationRunner}, \hyperpage{19}
-    \subitem {getItemsToRate}, \hyperpage{20}
-    \subitem {printRecommendationsFor}, \hyperpage{20}
-  \item {Recommender}, \hyperpage{21}
-    \subitem {getItemsToRate}, \hyperpage{21}
-    \subitem {printRecommendationsFor}, \hyperpage{21}
+  \item {RangeResource}
+    \subitem {edu.duke.RangeResource}, \hyperpage{38, 39}
 
   \indexspace
 
   \item {satisfies}
-    \subitem {AllFilters}, \hyperpage{6}
-    \subitem {DirectorsFilter}, \hyperpage{7}
-    \subitem {GenreFilter}, \hyperpage{12}
-    \subitem {MinutesFilter}, \hyperpage{13}
-    \subitem {TrueFilter}, \hyperpage{23}
-    \subitem {YearAfterFilter}, \hyperpage{24}
-  \item {SecondRatings}, \hyperpage{22}
+    \subitem {es.ull.etsii.app.AllFilters}, \hyperpage{12}
+    \subitem {es.ull.etsii.app.DirectorsFilter}, \hyperpage{13}
+    \subitem {es.ull.etsii.app.GenreFilter}, \hyperpage{24}
+    \subitem {es.ull.etsii.app.MinutesFilter}, \hyperpage{29}
+    \subitem {es.ull.etsii.app.TrueFilter}, \hyperpage{51}
+    \subitem {es.ull.etsii.app.YearAfterFilter}, \hyperpage{56}
+  \item {save}
+    \subitem {edu.duke.ImageResource}, \hyperpage{27}
+  \item {saveAs}
+    \subitem {edu.duke.ImageResource}, \hyperpage{27}
+  \item {selectedFiles}
+    \subitem {edu.duke.DirectoryResource}, \hyperpage{14}
+  \item {sequence}
+    \subitem {edu.duke.RangeResource}, \hyperpage{40}
+  \item {setAlpha}
+    \subitem {edu.duke.Pixel}, \hyperpage{33}
+  \item {setBlue}
+    \subitem {edu.duke.Pixel}, \hyperpage{33}
+  \item {setFileName}
+    \subitem {edu.duke.ImageResource}, \hyperpage{28}
+  \item {setGreen}
+    \subitem {edu.duke.Pixel}, \hyperpage{34}
+  \item {setPixel}
+    \subitem {edu.duke.ImageResource}, \hyperpage{28}
+  \item {setRed}
+    \subitem {edu.duke.Pixel}, \hyperpage{34}
+  \item {Shape}
+    \subitem {edu.duke.Shape}, \hyperpage{47}
+  \item {size}
+    \subitem {edu.duke.StorageResource}, \hyperpage{50}
+  \item {StorageResource}
+    \subitem {edu.duke.StorageResource}, \hyperpage{49}
 
   \indexspace
 
-  \item {ThirdRatings}, \hyperpage{22}
-  \item {TrueFilter}, \hyperpage{23}
-    \subitem {satisfies}, \hyperpage{23}
+  \item {toString}
+    \subitem {edu.duke.ImageResource}, \hyperpage{28}
+    \subitem {edu.duke.Pixel}, \hyperpage{34}
+    \subitem {edu.duke.Point}, \hyperpage{37}
+    \subitem {edu.duke.RangeResource}, \hyperpage{40}
 
   \indexspace
 
-  \item {YearAfterFilter}, \hyperpage{24}
-    \subitem {satisfies}, \hyperpage{24}
+  \item {URLResource}
+    \subitem {edu.duke.URLResource}, \hyperpage{52}
+
+  \indexspace
+
+  \item {words}
+    \subitem {edu.duke.FileResource}, \hyperpage{20}
+    \subitem {edu.duke.URLResource}, \hyperpage{55}
+  \item {write}
+    \subitem {edu.duke.FileResource}, \hyperpage{20, 21}
 
 \end{theindex}

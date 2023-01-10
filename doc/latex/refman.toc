@@ -1,67 +1,201 @@
 \@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
 \babel@toc {spanish}{}
-\contentsline {chapter}{\numberline {1}Indice jerárquico}{1}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Jerarquía de la clase}{1}{section.1.1}%
-\contentsline {chapter}{\numberline {2}Índice de clases}{3}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Lista de clases}{3}{section.2.1}%
-\contentsline {chapter}{\numberline {3}Documentación de las clases}{5}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Referencia de la Clase All\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Filters}{5}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Documentación de las funciones miembro}{6}{subsection.3.1.1}%
-\contentsline {subsubsection}{\numberline {3.1.1.1}satisfies()}{6}{subsubsection.3.1.1.1}%
-\contentsline {section}{\numberline {3.2}Referencia de la Clase Directors\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Filter}{6}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Descripción detallada}{7}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Documentación de las funciones miembro}{7}{subsection.3.2.2}%
-\contentsline {subsubsection}{\numberline {3.2.2.1}satisfies()}{7}{subsubsection.3.2.2.1}%
-\contentsline {section}{\numberline {3.3}Referencia de la Clase Efficient\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Rater}{7}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Documentación de las funciones miembro}{8}{subsection.3.3.1}%
-\contentsline {subsubsection}{\numberline {3.3.1.1}addRating()}{8}{subsubsection.3.3.1.1}%
-\contentsline {subsubsection}{\numberline {3.3.1.2}getID()}{8}{subsubsection.3.3.1.2}%
-\contentsline {subsubsection}{\numberline {3.3.1.3}getItemsRated()}{9}{subsubsection.3.3.1.3}%
-\contentsline {subsubsection}{\numberline {3.3.1.4}getRating()}{9}{subsubsection.3.3.1.4}%
-\contentsline {subsubsection}{\numberline {3.3.1.5}hasRating()}{9}{subsubsection.3.3.1.5}%
-\contentsline {subsubsection}{\numberline {3.3.1.6}numRatings()}{9}{subsubsection.3.3.1.6}%
-\contentsline {section}{\numberline {3.4}Referencia de la Interfaz Filter}{9}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Referencia de la Clase First\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Ratings}{10}{section.3.5}%
-\contentsline {section}{\numberline {3.6}Referencia de la Clase Fourth\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Ratings}{10}{section.3.6}%
-\contentsline {section}{\numberline {3.7}Referencia de la Clase Genre\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Filter}{11}{section.3.7}%
-\contentsline {subsection}{\numberline {3.7.1}Descripción detallada}{11}{subsection.3.7.1}%
-\contentsline {subsection}{\numberline {3.7.2}Documentación de las funciones miembro}{12}{subsection.3.7.2}%
-\contentsline {subsubsection}{\numberline {3.7.2.1}satisfies()}{12}{subsubsection.3.7.2.1}%
-\contentsline {section}{\numberline {3.8}Referencia de la Clase Minutes\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Filter}{12}{section.3.8}%
-\contentsline {subsection}{\numberline {3.8.1}Descripción detallada}{13}{subsection.3.8.1}%
-\contentsline {subsection}{\numberline {3.8.2}Documentación de las funciones miembro}{13}{subsection.3.8.2}%
-\contentsline {subsubsection}{\numberline {3.8.2.1}satisfies()}{13}{subsubsection.3.8.2.1}%
-\contentsline {section}{\numberline {3.9}Referencia de la Clase Movie}{13}{section.3.9}%
-\contentsline {section}{\numberline {3.10}Referencia de la Clase Movie\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Database}{14}{section.3.10}%
-\contentsline {section}{\numberline {3.11}Referencia de la Clase Movie\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Runner\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Average}{14}{section.3.11}%
-\contentsline {section}{\numberline {3.12}Referencia de la Clase Movie\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Runner\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Similar\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Ratings}{14}{section.3.12}%
-\contentsline {section}{\numberline {3.13}Referencia de la Clase Movie\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Runner\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}With\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Filters}{15}{section.3.13}%
-\contentsline {section}{\numberline {3.14}Referencia de la Clase Plain\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Rater}{15}{section.3.14}%
-\contentsline {subsection}{\numberline {3.14.1}Documentación de las funciones miembro}{16}{subsection.3.14.1}%
-\contentsline {subsubsection}{\numberline {3.14.1.1}addRating()}{16}{subsubsection.3.14.1.1}%
-\contentsline {subsubsection}{\numberline {3.14.1.2}getID()}{16}{subsubsection.3.14.1.2}%
-\contentsline {subsubsection}{\numberline {3.14.1.3}getItemsRated()}{16}{subsubsection.3.14.1.3}%
-\contentsline {subsubsection}{\numberline {3.14.1.4}getRating()}{16}{subsubsection.3.14.1.4}%
-\contentsline {subsubsection}{\numberline {3.14.1.5}hasRating()}{17}{subsubsection.3.14.1.5}%
-\contentsline {subsubsection}{\numberline {3.14.1.6}numRatings()}{17}{subsubsection.3.14.1.6}%
-\contentsline {section}{\numberline {3.15}Referencia de la Interfaz Rater}{17}{section.3.15}%
-\contentsline {section}{\numberline {3.16}Referencia de la Clase Rater\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Database}{18}{section.3.16}%
-\contentsline {section}{\numberline {3.17}Referencia de la Clase Rating}{18}{section.3.17}%
-\contentsline {section}{\numberline {3.18}Referencia de la Clase Recommendation\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Runner}{19}{section.3.18}%
-\contentsline {subsection}{\numberline {3.18.1}Documentación de las funciones miembro}{20}{subsection.3.18.1}%
-\contentsline {subsubsection}{\numberline {3.18.1.1}getItemsToRate()}{20}{subsubsection.3.18.1.1}%
-\contentsline {subsubsection}{\numberline {3.18.1.2}printRecommendationsFor()}{20}{subsubsection.3.18.1.2}%
-\contentsline {section}{\numberline {3.19}Referencia de la Interfaz Recommender}{21}{section.3.19}%
-\contentsline {subsection}{\numberline {3.19.1}Descripción detallada}{21}{subsection.3.19.1}%
-\contentsline {subsection}{\numberline {3.19.2}Documentación de las funciones miembro}{21}{subsection.3.19.2}%
-\contentsline {subsubsection}{\numberline {3.19.2.1}getItemsToRate()}{21}{subsubsection.3.19.2.1}%
-\contentsline {subsubsection}{\numberline {3.19.2.2}printRecommendationsFor()}{22}{subsubsection.3.19.2.2}%
-\contentsline {section}{\numberline {3.20}Referencia de la Clase Second\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Ratings}{22}{section.3.20}%
-\contentsline {section}{\numberline {3.21}Referencia de la Clase Third\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Ratings}{22}{section.3.21}%
-\contentsline {section}{\numberline {3.22}Referencia de la Clase True\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Filter}{23}{section.3.22}%
-\contentsline {subsection}{\numberline {3.22.1}Documentación de las funciones miembro}{23}{subsection.3.22.1}%
-\contentsline {subsubsection}{\numberline {3.22.1.1}satisfies()}{23}{subsubsection.3.22.1.1}%
-\contentsline {section}{\numberline {3.23}Referencia de la Clase Year\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}After\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Filter}{24}{section.3.23}%
-\contentsline {subsection}{\numberline {3.23.1}Documentación de las funciones miembro}{24}{subsection.3.23.1}%
-\contentsline {subsubsection}{\numberline {3.23.1.1}satisfies()}{24}{subsubsection.3.23.1.1}%
-\contentsline {chapter}{\'{I}ndice alfab\'{e}tico}{25}{section*.47}%
+\contentsline {chapter}{\numberline {1}Sistema Recomendador de películas}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Contenidos}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Proyecto}{1}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}¿\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Qué es un sistema recomendador de películas?}{1}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Acerca del proyecto\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:}{1}{subsection.1.2.2}%
+\contentsline {section}{\numberline {1.3}Modo de uso}{2}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Hitos}{2}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Autores}{2}{section.1.5}%
+\contentsline {chapter}{\numberline {2}Indice de namespaces}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Paquetes}{3}{section.2.1}%
+\contentsline {chapter}{\numberline {3}Indice jerárquico}{5}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Jerarquía de la clase}{5}{section.3.1}%
+\contentsline {chapter}{\numberline {4}Índice de clases}{7}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Lista de clases}{7}{section.4.1}%
+\contentsline {chapter}{\numberline {5}Documentación de namespaces}{9}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Paquetes edu.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}duke}{9}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Descripción detallada}{9}{subsection.5.1.1}%
+\contentsline {chapter}{\numberline {6}Documentación de las clases}{11}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Referencia de la Clase es.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}ull.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}etsii.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}app.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}All\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Filters}{11}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}Documentación de las funciones miembro}{12}{subsection.6.1.1}%
+\contentsline {subsubsection}{\numberline {6.1.1.1}satisfies()}{12}{subsubsection.6.1.1.1}%
+\contentsline {section}{\numberline {6.2}Referencia de la Clase es.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}ull.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}etsii.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}app.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Directors\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Filter}{12}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Descripción detallada}{13}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}Documentación de las funciones miembro}{13}{subsection.6.2.2}%
+\contentsline {subsubsection}{\numberline {6.2.2.1}satisfies()}{13}{subsubsection.6.2.2.1}%
+\contentsline {section}{\numberline {6.3}Referencia de la Clase edu.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}duke.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Directory\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Resource}{13}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Descripción detallada}{13}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}Documentación del constructor y destructor}{13}{subsection.6.3.2}%
+\contentsline {subsubsection}{\numberline {6.3.2.1}DirectoryResource()}{13}{subsubsection.6.3.2.1}%
+\contentsline {subsection}{\numberline {6.3.3}Documentación de las funciones miembro}{14}{subsection.6.3.3}%
+\contentsline {subsubsection}{\numberline {6.3.3.1}selectedFiles()}{14}{subsubsection.6.3.3.1}%
+\contentsline {section}{\numberline {6.4}Referencia de la Clase es.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}ull.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}etsii.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}app.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Efficient\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Rater}{14}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}Documentación de las funciones miembro}{15}{subsection.6.4.1}%
+\contentsline {subsubsection}{\numberline {6.4.1.1}addRating()}{15}{subsubsection.6.4.1.1}%
+\contentsline {subsubsection}{\numberline {6.4.1.2}getID()}{15}{subsubsection.6.4.1.2}%
+\contentsline {subsubsection}{\numberline {6.4.1.3}getItemsRated()}{15}{subsubsection.6.4.1.3}%
+\contentsline {subsubsection}{\numberline {6.4.1.4}getRating()}{15}{subsubsection.6.4.1.4}%
+\contentsline {subsubsection}{\numberline {6.4.1.5}hasRating()}{15}{subsubsection.6.4.1.5}%
+\contentsline {subsubsection}{\numberline {6.4.1.6}numRatings()}{15}{subsubsection.6.4.1.6}%
+\contentsline {section}{\numberline {6.5}Referencia de la Clase edu.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}duke.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}File\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Resource}{15}{section.6.5}%
+\contentsline {subsection}{\numberline {6.5.1}Descripción detallada}{16}{subsection.6.5.1}%
+\contentsline {subsection}{\numberline {6.5.2}Documentación del constructor y destructor}{16}{subsection.6.5.2}%
+\contentsline {subsubsection}{\numberline {6.5.2.1}FileResource()\hspace {0.1cm}{\footnotesize \ttfamily [1/6]}}{16}{subsubsection.6.5.2.1}%
+\contentsline {subsubsection}{\numberline {6.5.2.2}FileResource()\hspace {0.1cm}{\footnotesize \ttfamily [2/6]}}{17}{subsubsection.6.5.2.2}%
+\contentsline {subsubsection}{\numberline {6.5.2.3}FileResource()\hspace {0.1cm}{\footnotesize \ttfamily [3/6]}}{17}{subsubsection.6.5.2.3}%
+\contentsline {subsubsection}{\numberline {6.5.2.4}FileResource()\hspace {0.1cm}{\footnotesize \ttfamily [4/6]}}{17}{subsubsection.6.5.2.4}%
+\contentsline {subsubsection}{\numberline {6.5.2.5}FileResource()\hspace {0.1cm}{\footnotesize \ttfamily [5/6]}}{18}{subsubsection.6.5.2.5}%
+\contentsline {subsubsection}{\numberline {6.5.2.6}FileResource()\hspace {0.1cm}{\footnotesize \ttfamily [6/6]}}{18}{subsubsection.6.5.2.6}%
+\contentsline {subsection}{\numberline {6.5.3}Documentación de las funciones miembro}{18}{subsection.6.5.3}%
+\contentsline {subsubsection}{\numberline {6.5.3.1}asString()}{18}{subsubsection.6.5.3.1}%
+\contentsline {subsubsection}{\numberline {6.5.3.2}getCSVHeaders()}{19}{subsubsection.6.5.3.2}%
+\contentsline {subsubsection}{\numberline {6.5.3.3}getCSVParser()\hspace {0.1cm}{\footnotesize \ttfamily [1/3]}}{19}{subsubsection.6.5.3.3}%
+\contentsline {subsubsection}{\numberline {6.5.3.4}getCSVParser()\hspace {0.1cm}{\footnotesize \ttfamily [2/3]}}{19}{subsubsection.6.5.3.4}%
+\contentsline {subsubsection}{\numberline {6.5.3.5}getCSVParser()\hspace {0.1cm}{\footnotesize \ttfamily [3/3]}}{20}{subsubsection.6.5.3.5}%
+\contentsline {subsubsection}{\numberline {6.5.3.6}lines()}{20}{subsubsection.6.5.3.6}%
+\contentsline {subsubsection}{\numberline {6.5.3.7}words()}{20}{subsubsection.6.5.3.7}%
+\contentsline {subsubsection}{\numberline {6.5.3.8}write()\hspace {0.1cm}{\footnotesize \ttfamily [1/4]}}{20}{subsubsection.6.5.3.8}%
+\contentsline {subsubsection}{\numberline {6.5.3.9}write()\hspace {0.1cm}{\footnotesize \ttfamily [2/4]}}{21}{subsubsection.6.5.3.9}%
+\contentsline {subsubsection}{\numberline {6.5.3.10}write()\hspace {0.1cm}{\footnotesize \ttfamily [3/4]}}{21}{subsubsection.6.5.3.10}%
+\contentsline {subsubsection}{\numberline {6.5.3.11}write()\hspace {0.1cm}{\footnotesize \ttfamily [4/4]}}{21}{subsubsection.6.5.3.11}%
+\contentsline {section}{\numberline {6.6}Referencia de la Interfaz es.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}ull.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}etsii.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}app.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Filter}{22}{section.6.6}%
+\contentsline {section}{\numberline {6.7}Referencia de la Clase es.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}ull.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}etsii.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}app.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}First\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Ratings}{22}{section.6.7}%
+\contentsline {section}{\numberline {6.8}Referencia de la Clase es.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}ull.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}etsii.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}app.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Fourth\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Ratings}{22}{section.6.8}%
+\contentsline {section}{\numberline {6.9}Referencia de la Clase es.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}ull.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}etsii.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}app.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Genre\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Filter}{23}{section.6.9}%
+\contentsline {subsection}{\numberline {6.9.1}Descripción detallada}{23}{subsection.6.9.1}%
+\contentsline {subsection}{\numberline {6.9.2}Documentación de las funciones miembro}{24}{subsection.6.9.2}%
+\contentsline {subsubsection}{\numberline {6.9.2.1}satisfies()}{24}{subsubsection.6.9.2.1}%
+\contentsline {section}{\numberline {6.10}Referencia de la Clase edu.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}duke.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Image\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Resource}{24}{section.6.10}%
+\contentsline {subsection}{\numberline {6.10.1}Descripción detallada}{24}{subsection.6.10.1}%
+\contentsline {subsection}{\numberline {6.10.2}Documentación del constructor y destructor}{25}{subsection.6.10.2}%
+\contentsline {subsubsection}{\numberline {6.10.2.1}ImageResource()\hspace {0.1cm}{\footnotesize \ttfamily [1/5]}}{25}{subsubsection.6.10.2.1}%
+\contentsline {subsubsection}{\numberline {6.10.2.2}ImageResource()\hspace {0.1cm}{\footnotesize \ttfamily [2/5]}}{25}{subsubsection.6.10.2.2}%
+\contentsline {subsubsection}{\numberline {6.10.2.3}ImageResource()\hspace {0.1cm}{\footnotesize \ttfamily [3/5]}}{25}{subsubsection.6.10.2.3}%
+\contentsline {subsubsection}{\numberline {6.10.2.4}ImageResource()\hspace {0.1cm}{\footnotesize \ttfamily [4/5]}}{26}{subsubsection.6.10.2.4}%
+\contentsline {subsubsection}{\numberline {6.10.2.5}ImageResource()\hspace {0.1cm}{\footnotesize \ttfamily [5/5]}}{26}{subsubsection.6.10.2.5}%
+\contentsline {subsection}{\numberline {6.10.3}Documentación de las funciones miembro}{26}{subsection.6.10.3}%
+\contentsline {subsubsection}{\numberline {6.10.3.1}draw()}{26}{subsubsection.6.10.3.1}%
+\contentsline {subsubsection}{\numberline {6.10.3.2}getFileName()}{26}{subsubsection.6.10.3.2}%
+\contentsline {subsubsection}{\numberline {6.10.3.3}getHeight()}{26}{subsubsection.6.10.3.3}%
+\contentsline {subsubsection}{\numberline {6.10.3.4}getPixel()}{27}{subsubsection.6.10.3.4}%
+\contentsline {subsubsection}{\numberline {6.10.3.5}getWidth()}{27}{subsubsection.6.10.3.5}%
+\contentsline {subsubsection}{\numberline {6.10.3.6}pixels()}{27}{subsubsection.6.10.3.6}%
+\contentsline {subsubsection}{\numberline {6.10.3.7}save()}{27}{subsubsection.6.10.3.7}%
+\contentsline {subsubsection}{\numberline {6.10.3.8}saveAs()}{27}{subsubsection.6.10.3.8}%
+\contentsline {subsubsection}{\numberline {6.10.3.9}setFileName()}{28}{subsubsection.6.10.3.9}%
+\contentsline {subsubsection}{\numberline {6.10.3.10}setPixel()}{28}{subsubsection.6.10.3.10}%
+\contentsline {subsubsection}{\numberline {6.10.3.11}toString()}{28}{subsubsection.6.10.3.11}%
+\contentsline {section}{\numberline {6.11}Referencia de la Clase es.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}ull.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}etsii.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}app.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Minutes\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Filter}{29}{section.6.11}%
+\contentsline {subsection}{\numberline {6.11.1}Descripción detallada}{29}{subsection.6.11.1}%
+\contentsline {subsection}{\numberline {6.11.2}Documentación de las funciones miembro}{29}{subsection.6.11.2}%
+\contentsline {subsubsection}{\numberline {6.11.2.1}satisfies()}{30}{subsubsection.6.11.2.1}%
+\contentsline {section}{\numberline {6.12}Referencia de la Clase es.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}ull.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}etsii.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}app.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Movie}{30}{section.6.12}%
+\contentsline {subsection}{\numberline {6.12.1}Descripción detallada}{30}{subsection.6.12.1}%
+\contentsline {section}{\numberline {6.13}Referencia de la Clase es.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}ull.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}etsii.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}app.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Movie\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Database}{30}{section.6.13}%
+\contentsline {section}{\numberline {6.14}Referencia de la Clase es.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}ull.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}etsii.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}app.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Movie\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Runner\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Average}{31}{section.6.14}%
+\contentsline {section}{\numberline {6.15}Referencia de la Clase es.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}ull.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}etsii.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}app.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Movie\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Runner\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Similar\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Ratings}{31}{section.6.15}%
+\contentsline {section}{\numberline {6.16}Referencia de la Clase es.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}ull.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}etsii.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}app.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Movie\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Runner\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}With\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Filters}{31}{section.6.16}%
+\contentsline {section}{\numberline {6.17}Referencia de la Clase edu.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}duke.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Pixel}{31}{section.6.17}%
+\contentsline {subsection}{\numberline {6.17.1}Descripción detallada}{32}{subsection.6.17.1}%
+\contentsline {subsection}{\numberline {6.17.2}Documentación del constructor y destructor}{32}{subsection.6.17.2}%
+\contentsline {subsubsection}{\numberline {6.17.2.1}Pixel()}{32}{subsubsection.6.17.2.1}%
+\contentsline {subsection}{\numberline {6.17.3}Documentación de las funciones miembro}{32}{subsection.6.17.3}%
+\contentsline {subsubsection}{\numberline {6.17.3.1}getAlpha()}{32}{subsubsection.6.17.3.1}%
+\contentsline {subsubsection}{\numberline {6.17.3.2}getBlue()}{32}{subsubsection.6.17.3.2}%
+\contentsline {subsubsection}{\numberline {6.17.3.3}getGreen()}{33}{subsubsection.6.17.3.3}%
+\contentsline {subsubsection}{\numberline {6.17.3.4}getRed()}{33}{subsubsection.6.17.3.4}%
+\contentsline {subsubsection}{\numberline {6.17.3.5}getX()}{33}{subsubsection.6.17.3.5}%
+\contentsline {subsubsection}{\numberline {6.17.3.6}getY()}{33}{subsubsection.6.17.3.6}%
+\contentsline {subsubsection}{\numberline {6.17.3.7}setAlpha()}{33}{subsubsection.6.17.3.7}%
+\contentsline {subsubsection}{\numberline {6.17.3.8}setBlue()}{33}{subsubsection.6.17.3.8}%
+\contentsline {subsubsection}{\numberline {6.17.3.9}setGreen()}{34}{subsubsection.6.17.3.9}%
+\contentsline {subsubsection}{\numberline {6.17.3.10}setRed()}{34}{subsubsection.6.17.3.10}%
+\contentsline {subsubsection}{\numberline {6.17.3.11}toString()}{34}{subsubsection.6.17.3.11}%
+\contentsline {section}{\numberline {6.18}Referencia de la Clase es.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}ull.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}etsii.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}app.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Plain\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Rater}{35}{section.6.18}%
+\contentsline {subsection}{\numberline {6.18.1}Documentación de las funciones miembro}{35}{subsection.6.18.1}%
+\contentsline {subsubsection}{\numberline {6.18.1.1}addRating()}{35}{subsubsection.6.18.1.1}%
+\contentsline {subsubsection}{\numberline {6.18.1.2}getID()}{36}{subsubsection.6.18.1.2}%
+\contentsline {subsubsection}{\numberline {6.18.1.3}getItemsRated()}{36}{subsubsection.6.18.1.3}%
+\contentsline {subsubsection}{\numberline {6.18.1.4}getRating()}{36}{subsubsection.6.18.1.4}%
+\contentsline {subsubsection}{\numberline {6.18.1.5}hasRating()}{36}{subsubsection.6.18.1.5}%
+\contentsline {subsubsection}{\numberline {6.18.1.6}numRatings()}{36}{subsubsection.6.18.1.6}%
+\contentsline {section}{\numberline {6.19}Referencia de la Clase edu.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}duke.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Point}{36}{section.6.19}%
+\contentsline {subsection}{\numberline {6.19.1}Descripción detallada}{36}{subsection.6.19.1}%
+\contentsline {subsection}{\numberline {6.19.2}Documentación del constructor y destructor}{37}{subsection.6.19.2}%
+\contentsline {subsubsection}{\numberline {6.19.2.1}Point()}{37}{subsubsection.6.19.2.1}%
+\contentsline {subsection}{\numberline {6.19.3}Documentación de las funciones miembro}{37}{subsection.6.19.3}%
+\contentsline {subsubsection}{\numberline {6.19.3.1}distance()}{37}{subsubsection.6.19.3.1}%
+\contentsline {subsubsection}{\numberline {6.19.3.2}getX()}{37}{subsubsection.6.19.3.2}%
+\contentsline {subsubsection}{\numberline {6.19.3.3}getY()}{37}{subsubsection.6.19.3.3}%
+\contentsline {subsubsection}{\numberline {6.19.3.4}toString()}{38}{subsubsection.6.19.3.4}%
+\contentsline {section}{\numberline {6.20}Referencia de la Clase edu.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}duke.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Range\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Resource}{38}{section.6.20}%
+\contentsline {subsection}{\numberline {6.20.1}Descripción detallada}{38}{subsection.6.20.1}%
+\contentsline {subsection}{\numberline {6.20.2}Documentación del constructor y destructor}{38}{subsection.6.20.2}%
+\contentsline {subsubsection}{\numberline {6.20.2.1}RangeResource()\hspace {0.1cm}{\footnotesize \ttfamily [1/4]}}{38}{subsubsection.6.20.2.1}%
+\contentsline {subsubsection}{\numberline {6.20.2.2}RangeResource()\hspace {0.1cm}{\footnotesize \ttfamily [2/4]}}{39}{subsubsection.6.20.2.2}%
+\contentsline {subsubsection}{\numberline {6.20.2.3}RangeResource()\hspace {0.1cm}{\footnotesize \ttfamily [3/4]}}{39}{subsubsection.6.20.2.3}%
+\contentsline {subsubsection}{\numberline {6.20.2.4}RangeResource()\hspace {0.1cm}{\footnotesize \ttfamily [4/4]}}{40}{subsubsection.6.20.2.4}%
+\contentsline {subsection}{\numberline {6.20.3}Documentación de las funciones miembro}{40}{subsection.6.20.3}%
+\contentsline {subsubsection}{\numberline {6.20.3.1}sequence()}{40}{subsubsection.6.20.3.1}%
+\contentsline {subsubsection}{\numberline {6.20.3.2}toString()}{40}{subsubsection.6.20.3.2}%
+\contentsline {section}{\numberline {6.21}Referencia de la Interfaz es.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}ull.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}etsii.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}app.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Rater}{40}{section.6.21}%
+\contentsline {section}{\numberline {6.22}Referencia de la Clase es.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}ull.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}etsii.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}app.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Rater\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Database}{41}{section.6.22}%
+\contentsline {section}{\numberline {6.23}Referencia de la Clase es.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}ull.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}etsii.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}app.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Rating}{41}{section.6.23}%
+\contentsline {subsection}{\numberline {6.23.1}Descripción detallada}{42}{subsection.6.23.1}%
+\contentsline {section}{\numberline {6.24}Referencia de la Clase es.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}ull.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}etsii.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}app.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Recommendation\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Runner}{42}{section.6.24}%
+\contentsline {subsection}{\numberline {6.24.1}Documentación de las funciones miembro}{43}{subsection.6.24.1}%
+\contentsline {subsubsection}{\numberline {6.24.1.1}getItemsToRate()}{43}{subsubsection.6.24.1.1}%
+\contentsline {subsubsection}{\numberline {6.24.1.2}printRecommendationsFor()}{43}{subsubsection.6.24.1.2}%
+\contentsline {section}{\numberline {6.25}Referencia de la Interfaz es.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}ull.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}etsii.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}app.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Recommender}{44}{section.6.25}%
+\contentsline {subsection}{\numberline {6.25.1}Descripción detallada}{44}{subsection.6.25.1}%
+\contentsline {subsection}{\numberline {6.25.2}Documentación de las funciones miembro}{44}{subsection.6.25.2}%
+\contentsline {subsubsection}{\numberline {6.25.2.1}getItemsToRate()}{44}{subsubsection.6.25.2.1}%
+\contentsline {subsubsection}{\numberline {6.25.2.2}printRecommendationsFor()}{45}{subsubsection.6.25.2.2}%
+\contentsline {section}{\numberline {6.26}Referencia de la Clase edu.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}duke.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Resource\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Exception}{45}{section.6.26}%
+\contentsline {subsection}{\numberline {6.26.1}Descripción detallada}{46}{subsection.6.26.1}%
+\contentsline {section}{\numberline {6.27}Referencia de la Clase es.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}ull.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}etsii.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}app.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Second\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Ratings}{46}{section.6.27}%
+\contentsline {section}{\numberline {6.28}Referencia de la Clase edu.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}duke.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Shape}{46}{section.6.28}%
+\contentsline {subsection}{\numberline {6.28.1}Descripción detallada}{46}{subsection.6.28.1}%
+\contentsline {subsection}{\numberline {6.28.2}Documentación del constructor y destructor}{47}{subsection.6.28.2}%
+\contentsline {subsubsection}{\numberline {6.28.2.1}Shape()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{47}{subsubsection.6.28.2.1}%
+\contentsline {subsubsection}{\numberline {6.28.2.2}Shape()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{47}{subsubsection.6.28.2.2}%
+\contentsline {subsection}{\numberline {6.28.3}Documentación de las funciones miembro}{47}{subsection.6.28.3}%
+\contentsline {subsubsection}{\numberline {6.28.3.1}addPoint()}{47}{subsubsection.6.28.3.1}%
+\contentsline {subsubsection}{\numberline {6.28.3.2}getLastPoint()}{48}{subsubsection.6.28.3.2}%
+\contentsline {subsubsection}{\numberline {6.28.3.3}getPoints()}{48}{subsubsection.6.28.3.3}%
+\contentsline {section}{\numberline {6.29}Referencia de la Clase es.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}ull.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}etsii.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}app.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Simple\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Service}{48}{section.6.29}%
+\contentsline {section}{\numberline {6.30}Referencia de la Clase edu.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}duke.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Storage\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Resource}{48}{section.6.30}%
+\contentsline {subsection}{\numberline {6.30.1}Descripción detallada}{48}{subsection.6.30.1}%
+\contentsline {subsection}{\numberline {6.30.2}Documentación del constructor y destructor}{49}{subsection.6.30.2}%
+\contentsline {subsubsection}{\numberline {6.30.2.1}StorageResource()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{49}{subsubsection.6.30.2.1}%
+\contentsline {subsubsection}{\numberline {6.30.2.2}StorageResource()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{49}{subsubsection.6.30.2.2}%
+\contentsline {subsection}{\numberline {6.30.3}Documentación de las funciones miembro}{49}{subsection.6.30.3}%
+\contentsline {subsubsection}{\numberline {6.30.3.1}add()}{49}{subsubsection.6.30.3.1}%
+\contentsline {subsubsection}{\numberline {6.30.3.2}clear()}{49}{subsubsection.6.30.3.2}%
+\contentsline {subsubsection}{\numberline {6.30.3.3}contains()}{50}{subsubsection.6.30.3.3}%
+\contentsline {subsubsection}{\numberline {6.30.3.4}data()}{50}{subsubsection.6.30.3.4}%
+\contentsline {subsubsection}{\numberline {6.30.3.5}size()}{50}{subsubsection.6.30.3.5}%
+\contentsline {section}{\numberline {6.31}Referencia de la Clase es.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}ull.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}etsii.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}app.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Third\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Ratings}{50}{section.6.31}%
+\contentsline {section}{\numberline {6.32}Referencia de la Clase es.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}ull.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}etsii.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}app.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}True\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Filter}{51}{section.6.32}%
+\contentsline {subsection}{\numberline {6.32.1}Descripción detallada}{51}{subsection.6.32.1}%
+\contentsline {subsection}{\numberline {6.32.2}Documentación de las funciones miembro}{51}{subsection.6.32.2}%
+\contentsline {subsubsection}{\numberline {6.32.2.1}satisfies()}{52}{subsubsection.6.32.2.1}%
+\contentsline {section}{\numberline {6.33}Referencia de la Clase edu.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}duke.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}URLResource}{52}{section.6.33}%
+\contentsline {subsection}{\numberline {6.33.1}Descripción detallada}{52}{subsection.6.33.1}%
+\contentsline {subsection}{\numberline {6.33.2}Documentación del constructor y destructor}{52}{subsection.6.33.2}%
+\contentsline {subsubsection}{\numberline {6.33.2.1}URLResource()}{52}{subsubsection.6.33.2.1}%
+\contentsline {subsection}{\numberline {6.33.3}Documentación de las funciones miembro}{53}{subsection.6.33.3}%
+\contentsline {subsubsection}{\numberline {6.33.3.1}asString()}{53}{subsubsection.6.33.3.1}%
+\contentsline {subsubsection}{\numberline {6.33.3.2}getCSVHeaders()}{53}{subsubsection.6.33.3.2}%
+\contentsline {subsubsection}{\numberline {6.33.3.3}getCSVParser()\hspace {0.1cm}{\footnotesize \ttfamily [1/3]}}{53}{subsubsection.6.33.3.3}%
+\contentsline {subsubsection}{\numberline {6.33.3.4}getCSVParser()\hspace {0.1cm}{\footnotesize \ttfamily [2/3]}}{54}{subsubsection.6.33.3.4}%
+\contentsline {subsubsection}{\numberline {6.33.3.5}getCSVParser()\hspace {0.1cm}{\footnotesize \ttfamily [3/3]}}{54}{subsubsection.6.33.3.5}%
+\contentsline {subsubsection}{\numberline {6.33.3.6}lines()}{54}{subsubsection.6.33.3.6}%
+\contentsline {subsubsection}{\numberline {6.33.3.7}words()}{55}{subsubsection.6.33.3.7}%
+\contentsline {section}{\numberline {6.34}Referencia de la Clase es.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}ull.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}etsii.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}app.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Year\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}After\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Filter}{55}{section.6.34}%
+\contentsline {subsection}{\numberline {6.34.1}Descripción detallada}{56}{subsection.6.34.1}%
+\contentsline {subsection}{\numberline {6.34.2}Documentación de las funciones miembro}{56}{subsection.6.34.2}%
+\contentsline {subsubsection}{\numberline {6.34.2.1}satisfies()}{56}{subsubsection.6.34.2.1}%
+\contentsline {chapter}{\'{I}ndice alfab\'{e}tico}{57}{section*.62}%

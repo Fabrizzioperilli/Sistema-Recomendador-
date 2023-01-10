@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.11.25)  25 NOV 2022 11:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.11.25)  10 JAN 2023 22:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -912,7 +912,18 @@ LaTeX Font Info:    Font shape `T1/phv/b/sc' will be
 (Font)              scaled to size 8.99994pt on input line 174.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 6.29996pt on input line 174.
- [1] [2]
+ [1]
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 7.19995pt on input line 174.
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 17
+4.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+) [2] [3] [4] [5]
+[6
+
+]
 Package hyperref Info: Option `pageanchor' set `true' on input line 177.
 
 Cap\'{\i }tulo 1.
@@ -928,82 +939,115 @@ LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 22.39185pt on input line 179.
 LaTeX Font Info:    Font shape `T1/phv/bc/n' will be
 (Font)              scaled to size 22.39185pt on input line 179.
-(./hierarchy.tex
+(./md__r_e_a_d_m_e.tex
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 12.9599pt on input line 1.
-) [1
+LaTeX Font Info:    Trying to load font information for TS1+phv on input line 4
+.
 
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1phv.fd
+File: ts1phv.fd 2001/06/04 scalable font definitions for TS1/phv.
+)
+LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
+(Font)              scaled to size 8.99994pt on input line 4.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 10.79993pt on input line 14.
+ [1
 
-]
-LaTeX Info: Redefining \. on input line 181.
-LaTeX Info: Redefining \% on input line 181.
- [2
-
-]
-Cap\'{\i }tulo 2.
-(./annotated.tex) [3]
+])
 LaTeX Info: Redefining \. on input line 183.
 LaTeX Info: Redefining \% on input line 183.
+ [2]
+Cap\'{\i }tulo 2.
+(./namespaces.tex) [3
+
+]
+LaTeX Info: Redefining \. on input line 185.
+LaTeX Info: Redefining \% on input line 185.
  [4
 
 ]
 Cap\'{\i }tulo 3.
-(./class_all_filters.tex <./class_all_filters__inherit__graph.pdf
+(./hierarchy.tex) [5]
+LaTeX Info: Redefining \. on input line 187.
+LaTeX Info: Redefining \% on input line 187.
+ [6
 
-pdfTeX warning: pdflatex (file ./class_all_filters__inherit__graph.pdf): PDF in
-clusion: multiple pdfs with page group included in a single page
->
-<class_all_filters__inherit__graph.pdf, id=457, 135.50626pt x 156.585pt>
-File: class_all_filters__inherit__graph.pdf Graphic file (type pdf)
-<use class_all_filters__inherit__graph.pdf>
-Package pdftex.def Info: class_all_filters__inherit__graph.pdf  used on input l
-ine 10.
-(pdftex.def)             Requested size: 135.0pt x 156.0064pt.
- <./class_all_filters__coll__graph.pdf
+]
+Cap\'{\i }tulo 4.
+(./annotated.tex) [7]
+LaTeX Info: Redefining \. on input line 189.
+LaTeX Info: Redefining \% on input line 189.
+ [8
 
-pdfTeX warning: pdflatex (file ./class_all_filters__coll__graph.pdf): PDF inclu
-sion: multiple pdfs with page group included in a single page
+]
+Cap\'{\i }tulo 5.
+(./namespaceedu_1_1duke.tex) [9]
+LaTeX Info: Redefining \. on input line 191.
+LaTeX Info: Redefining \% on input line 191.
+ [10
+
+]
+Cap\'{\i }tulo 6.
+(./classes_1_1ull_1_1etsii_1_1app_1_1_all_filters.tex <./classes_1_1ull_1_1etsi
+i_1_1app_1_1_all_filters__inherit__graph.pdf
+
+pdfTeX warning: pdflatex (file ./classes_1_1ull_1_1etsii_1_1app_1_1_all_filters
+__inherit__graph.pdf): PDF inclusion: multiple pdfs with page group included in
+ a single page
 >
-<class_all_filters__coll__graph.pdf, id=465, 232.87pt x 167.62625pt>
-File: class_all_filters__coll__graph.pdf Graphic file (type pdf)
-<use class_all_filters__coll__graph.pdf>
-Package pdftex.def Info: class_all_filters__coll__graph.pdf  used on input line
- 20.
-(pdftex.def)             Requested size: 232.0pt x 167.00684pt.
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 10.79993pt on input line 23.
- [5]
-LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 7.19995pt on input line 38.
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 38
-.
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
-File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-)
+<classes_1_1ull_1_1etsii_1_1app_1_1_all_filters__inherit__graph.pdf, id=1252, 2
+01.75375pt x 156.585pt>
+File: classes_1_1ull_1_1etsii_1_1app_1_1_all_filters__inherit__graph.pdf Graphi
+c file (type pdf)
+<use classes_1_1ull_1_1etsii_1_1app_1_1_all_filters__inherit__graph.pdf>
+Package pdftex.def Info: classes_1_1ull_1_1etsii_1_1app_1_1_all_filters__inheri
+t__graph.pdf  used on input line 10.
+(pdftex.def)             Requested size: 201.0pt x 156.00162pt.
+ <./classes_1_1ull_1_1etsii_1_1app_1_1_all_filters__coll__graph.pdf
+
+pdfTeX warning: pdflatex (file ./classes_1_1ull_1_1etsii_1_1app_1_1_all_filters
+__coll__graph.pdf): PDF inclusion: multiple pdfs with page group included in a 
+single page
+>
+<classes_1_1ull_1_1etsii_1_1app_1_1_all_filters__coll__graph.pdf, id=1260, 335.
+2525pt x 178.6675pt>
+File: classes_1_1ull_1_1etsii_1_1app_1_1_all_filters__coll__graph.pdf Graphic f
+ile (type pdf)
+<use classes_1_1ull_1_1etsii_1_1app_1_1_all_filters__coll__graph.pdf>
+Package pdftex.def Info: classes_1_1ull_1_1etsii_1_1app_1_1_all_filters__coll__
+graph.pdf  used on input line 20.
+(pdftex.def)             Requested size: 334.0pt x 177.99911pt.
+ [11]
 LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <8> not available
 (Font)              Font shape `T1/pcr/m/sl' tried instead on input line 38.
-)
-(./class_directors_filter.tex <./class_directors_filter__inherit__graph.pdf>
-<class_directors_filter__inherit__graph.pdf, id=484, 157.58875pt x 156.585pt>
-File: class_directors_filter__inherit__graph.pdf Graphic file (type pdf)
-<use class_directors_filter__inherit__graph.pdf>
-Package pdftex.def Info: class_directors_filter__inherit__graph.pdf  used on in
-put line 10.
-(pdftex.def)             Requested size: 157.0pt x 156.00879pt.
- <./class_directors_filter__coll__graph.pdf
+) (./classes_1_1ull_1_1etsii_1_1app_1_1_directors_filter.tex <./classes_1_1ull_
+1_1etsii_1_1app_1_1_directors_filter__inherit__graph.pdf>
+<classes_1_1ull_1_1etsii_1_1app_1_1_directors_filter__inherit__graph.pdf, id=12
+82, 202.7575pt x 167.62625pt>
+File: classes_1_1ull_1_1etsii_1_1app_1_1_directors_filter__inherit__graph.pdf G
+raphic file (type pdf)
+<use classes_1_1ull_1_1etsii_1_1app_1_1_directors_filter__inherit__graph.pdf>
+Package pdftex.def Info: classes_1_1ull_1_1etsii_1_1app_1_1_directors_filter__i
+nherit__graph.pdf  used on input line 10.
+(pdftex.def)             Requested size: 202.0pt x 167.00427pt.
+ <./classes_1_1ull_1_1etsii_1_1app_1_1_directors_filter__coll__graph.pdf
 
-pdfTeX warning: pdflatex (file ./class_directors_filter__coll__graph.pdf): PDF 
-inclusion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex (file ./classes_1_1ull_1_1etsii_1_1app_1_1_directors_f
+ilter__coll__graph.pdf): PDF inclusion: multiple pdfs with page group included 
+in a single page
 >
-<class_directors_filter__coll__graph.pdf, id=492, 157.58875pt x 156.585pt>
-File: class_directors_filter__coll__graph.pdf Graphic file (type pdf)
-<use class_directors_filter__coll__graph.pdf>
-Package pdftex.def Info: class_directors_filter__coll__graph.pdf  used on input
- line 20.
-(pdftex.def)             Requested size: 157.0pt x 156.00879pt.
-LaTeX Info: Redefining \. on input line 29.
-LaTeX Info: Redefining \% on input line 29.
- [6]
+<classes_1_1ull_1_1etsii_1_1app_1_1_directors_filter__coll__graph.pdf, id=1290,
+ 202.7575pt x 167.62625pt>
+File: classes_1_1ull_1_1etsii_1_1app_1_1_directors_filter__coll__graph.pdf Grap
+hic file (type pdf)
+<use classes_1_1ull_1_1etsii_1_1app_1_1_directors_filter__coll__graph.pdf>
+Package pdftex.def Info: classes_1_1ull_1_1etsii_1_1app_1_1_directors_filter__c
+oll__graph.pdf  used on input line 20.
+(pdftex.def)             Requested size: 202.0pt x 167.00427pt.
+LaTeX Info: Redefining \. on input line 39.
+LaTeX Info: Redefining \% on input line 39.
+ [12]
 LaTeX Font Info:    Font shape `T1/phv/bc/n' will be
 (Font)              scaled to size 8.99994pt on input line 39.
 
@@ -1016,62 +1060,257 @@ Underfull \hbox (badness 10000) detected at line 42
 [][][]
  []
 
-) (./class_efficient_rater.tex <./class_efficient_rater__inherit__graph.pdf>
-<class_efficient_rater__inherit__graph.pdf, id=515, 154.5775pt x 156.585pt>
-File: class_efficient_rater__inherit__graph.pdf Graphic file (type pdf)
-<use class_efficient_rater__inherit__graph.pdf>
-Package pdftex.def Info: class_efficient_rater__inherit__graph.pdf  used on inp
-ut line 10.
-(pdftex.def)             Requested size: 154.0pt x 156.01357pt.
- <./class_efficient_rater__coll__graph.pdf
+) (./classedu_1_1duke_1_1_directory_resource.tex
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 8.09995pt on input line 18.
 
-pdfTeX warning: pdflatex (file ./class_efficient_rater__coll__graph.pdf): PDF i
-nclusion: multiple pdfs with page group included in a single page
->
-<class_efficient_rater__coll__graph.pdf, id=523, 154.5775pt x 156.585pt>
-File: class_efficient_rater__coll__graph.pdf Graphic file (type pdf)
-<use class_efficient_rater__coll__graph.pdf>
-Package pdftex.def Info: class_efficient_rater__coll__graph.pdf  used on input 
-line 20.
-(pdftex.def)             Requested size: 154.0pt x 156.01357pt.
-LaTeX Info: Redefining \. on input line 23.
-LaTeX Info: Redefining \% on input line 23.
- [7]
-LaTeX Info: Redefining \. on input line 79.
-LaTeX Info: Redefining \% on input line 79.
- [8]) (./interface_filter.tex <./interface_filter__inherit__graph.pdf>
-<interface_filter__inherit__graph.pdf, id=568, 578.16pt x 156.585pt>
-File: interface_filter__inherit__graph.pdf Graphic file (type pdf)
-<use interface_filter__inherit__graph.pdf>
-Package pdftex.def Info: interface_filter__inherit__graph.pdf  used on input li
-ne 10.
-(pdftex.def)             Requested size: 350.0pt x 94.79036pt.
-)
-(./class_first_ratings.tex
-LaTeX Info: Redefining \. on input line 9.
-LaTeX Info: Redefining \% on input line 9.
- [9]) (./class_fourth_ratings.tex)
-(./class_genre_filter.tex <./class_genre_filter__inherit__graph.pdf>
-<class_genre_filter__inherit__graph.pdf, id=594, 145.54375pt x 156.585pt>
-File: class_genre_filter__inherit__graph.pdf Graphic file (type pdf)
-<use class_genre_filter__inherit__graph.pdf>
-Package pdftex.def Info: class_genre_filter__inherit__graph.pdf  used on input 
-line 10.
-(pdftex.def)             Requested size: 145.0pt x 156.01117pt.
- <./class_genre_filter__coll__graph.pdf
+Underfull \hbox (badness 1024) in paragraph at lines 27--28
+[]\T1/phv/m/n/10 This soft-wa-re is li-cen-sed with an Apa-che 2 li-cen-se, see
+ [][] \T1/pcr/m/n/10 http[]://www.[]apache.[]org/licenses/[]
+ []
 
-pdfTeX warning: pdflatex (file ./class_genre_filter__coll__graph.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+
+Underfull \hbox (badness 10000) detected at line 29
+[][][]
+ []
+
+LaTeX Info: Redefining \. on input line 52.
+LaTeX Info: Redefining \% on input line 52.
+[13]
+Underfull \hbox (badness 10000) detected at line 56
+[][][]
+ []
+
+) (./classes_1_1ull_1_1etsii_1_1app_1_1_efficient_rater.tex <./classes_1_1ull_1
+_1etsii_1_1app_1_1_efficient_rater__inherit__graph.pdf
+
+pdfTeX warning: pdflatex (file ./classes_1_1ull_1_1etsii_1_1app_1_1_efficient_r
+ater__inherit__graph.pdf): PDF inclusion: multiple pdfs with page group include
+d in a single page
 >
-<class_genre_filter__coll__graph.pdf, id=602, 145.54375pt x 156.585pt>
-File: class_genre_filter__coll__graph.pdf Graphic file (type pdf)
-<use class_genre_filter__coll__graph.pdf>
-Package pdftex.def Info: class_genre_filter__coll__graph.pdf  used on input lin
-e 20.
-(pdftex.def)             Requested size: 145.0pt x 156.01117pt.
-LaTeX Info: Redefining \. on input line 23.
-LaTeX Info: Redefining \% on input line 23.
- [10]
+<classes_1_1ull_1_1etsii_1_1app_1_1_efficient_rater__inherit__graph.pdf, id=133
+3, 197.73875pt x 167.62625pt>
+File: classes_1_1ull_1_1etsii_1_1app_1_1_efficient_rater__inherit__graph.pdf Gr
+aphic file (type pdf)
+<use classes_1_1ull_1_1etsii_1_1app_1_1_efficient_rater__inherit__graph.pdf>
+Package pdftex.def Info: classes_1_1ull_1_1etsii_1_1app_1_1_efficient_rater__in
+herit__graph.pdf  used on input line 10.
+(pdftex.def)             Requested size: 197.0pt x 167.00172pt.
+ <./classes_1_1ull_1_1etsii_1_1app_1_1_efficient_rater__coll__graph.pdf
+
+pdfTeX warning: pdflatex (file ./classes_1_1ull_1_1etsii_1_1app_1_1_efficient_r
+ater__coll__graph.pdf): PDF inclusion: multiple pdfs with page group included i
+n a single page
+>
+<classes_1_1ull_1_1etsii_1_1app_1_1_efficient_rater__coll__graph.pdf, id=1341, 
+197.73875pt x 167.62625pt>
+File: classes_1_1ull_1_1etsii_1_1app_1_1_efficient_rater__coll__graph.pdf Graph
+ic file (type pdf)
+<use classes_1_1ull_1_1etsii_1_1app_1_1_efficient_rater__coll__graph.pdf>
+Package pdftex.def Info: classes_1_1ull_1_1etsii_1_1app_1_1_efficient_rater__co
+ll__graph.pdf  used on input line 20.
+(pdftex.def)             Requested size: 197.0pt x 167.00172pt.
+LaTeX Info: Redefining \. on input line 33.
+LaTeX Info: Redefining \% on input line 33.
+ [14]) (./classedu_1_1duke_1_1_file_resource.tex
+LaTeX Info: Redefining \. on input line 14.
+LaTeX Info: Redefining \% on input line 14.
+ [15]
+Underfull \hbox (badness 1024) in paragraph at lines 71--72
+[]\T1/phv/m/n/10 This soft-wa-re is li-cen-sed with an Apa-che 2 li-cen-se, see
+ [][] \T1/pcr/m/n/10 http[]://www.[]apache.[]org/licenses/[]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 73
+[][][]
+ []
+
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 7.19995pt on input line 82.
+LaTeX Info: Redefining \. on input line 97.
+LaTeX Info: Redefining \% on input line 97.
+[16]
+LaTeX Info: Redefining \. on input line 157.
+LaTeX Info: Redefining \% on input line 157.
+ [17]
+LaTeX Info: Redefining \. on input line 211.
+LaTeX Info: Redefining \% on input line 211.
+ [18]
+Underfull \hbox (badness 10000) detected at line 211
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 227
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 240
+[][][]
+ []
+
+LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <7> not available
+(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 252.
+
+Underfull \hbox (badness 10000) detected at line 263
+[][][]
+ []
+
+
+Overfull \vbox (4.67253pt too high) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 270.
+LaTeX Info: Redefining \% on input line 270.
+
+[19]
+Underfull \hbox (badness 10000) detected at line 288
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 306
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 317
+[][][]
+ []
+
+LaTeX Info: Redefining \. on input line 332.
+LaTeX Info: Redefining \% on input line 332.
+[20]) (./interfacees_1_1ull_1_1etsii_1_1app_1_1_filter.tex <./interfacees_1_1ul
+l_1_1etsii_1_1app_1_1_filter__inherit__graph.pdf
+
+pdfTeX warning: pdflatex (file ./interfacees_1_1ull_1_1etsii_1_1app_1_1_filter_
+_inherit__graph.pdf): PDF inclusion: multiple pdfs with page group included in 
+a single page
+>
+<interfacees_1_1ull_1_1etsii_1_1app_1_1_filter__inherit__graph.pdf, id=1475, 35
+2.31625pt x 327.2225pt>
+File: interfacees_1_1ull_1_1etsii_1_1app_1_1_filter__inherit__graph.pdf Graphic
+ file (type pdf)
+<use interfacees_1_1ull_1_1etsii_1_1app_1_1_filter__inherit__graph.pdf>
+Package pdftex.def Info: interfacees_1_1ull_1_1etsii_1_1app_1_1_filter__inherit
+__graph.pdf  used on input line 10.
+(pdftex.def)             Requested size: 350.0pt x 325.0697pt.
+LaTeX Info: Redefining \. on input line 13.
+LaTeX Info: Redefining \% on input line 13.
+ [21]) (./classes_1_1ull_1_1etsii_1_1app_1_1_first_ratings.tex)
+(./classes_1_1ull_1_1etsii_1_1app_1_1_fourth_ratings.tex
+LaTeX Info: Redefining \. on input line 12.
+LaTeX Info: Redefining \% on input line 12.
+ [22])
+(./classes_1_1ull_1_1etsii_1_1app_1_1_genre_filter.tex <./classes_1_1ull_1_1ets
+ii_1_1app_1_1_genre_filter__inherit__graph.pdf>
+<classes_1_1ull_1_1etsii_1_1app_1_1_genre_filter__inherit__graph.pdf, id=1518, 
+211.79124pt x 156.585pt>
+File: classes_1_1ull_1_1etsii_1_1app_1_1_genre_filter__inherit__graph.pdf Graph
+ic file (type pdf)
+<use classes_1_1ull_1_1etsii_1_1app_1_1_genre_filter__inherit__graph.pdf>
+Package pdftex.def Info: classes_1_1ull_1_1etsii_1_1app_1_1_genre_filter__inher
+it__graph.pdf  used on input line 10.
+(pdftex.def)             Requested size: 211.0pt x 156.0064pt.
+ <./classes_1_1ull_1_1etsii_1_1app_1_1_genre_filter__coll__graph.pdf
+
+pdfTeX warning: pdflatex (file ./classes_1_1ull_1_1etsii_1_1app_1_1_genre_filte
+r__coll__graph.pdf): PDF inclusion: multiple pdfs with page group included in a
+ single page
+>
+<classes_1_1ull_1_1etsii_1_1app_1_1_genre_filter__coll__graph.pdf, id=1526, 211
+.79124pt x 156.585pt>
+File: classes_1_1ull_1_1etsii_1_1app_1_1_genre_filter__coll__graph.pdf Graphic 
+file (type pdf)
+<use classes_1_1ull_1_1etsii_1_1app_1_1_genre_filter__coll__graph.pdf>
+Package pdftex.def Info: classes_1_1ull_1_1etsii_1_1app_1_1_genre_filter__coll_
+_graph.pdf  used on input line 20.
+(pdftex.def)             Requested size: 211.0pt x 156.0064pt.
+LaTeX Info: Redefining \. on input line 39.
+LaTeX Info: Redefining \% on input line 39.
+ [23]
+Underfull \hbox (badness 10000) detected at line 39
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 42
+[][][]
+ []
+
+) (./classedu_1_1duke_1_1_image_resource.tex
+LaTeX Info: Redefining \. on input line 65.
+LaTeX Info: Redefining \% on input line 65.
+ [24]
+LaTeX Info: Redefining \. on input line 122.
+LaTeX Info: Redefining \% on input line 122.
+ [25]
+Underfull \hbox (badness 10000) detected at line 165
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 176
+[][][]
+ []
+
+LaTeX Info: Redefining \. on input line 185.
+LaTeX Info: Redefining \% on input line 185.
+[26]
+Underfull \hbox (badness 10000) detected at line 194
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 205
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 216
+[][][]
+ []
+
+LaTeX Info: Redefining \. on input line 248.
+LaTeX Info: Redefining \% on input line 248.
+[27]
+Underfull \hbox (badness 10000) detected at line 285
+[][][]
+ []
+
+) (./classes_1_1ull_1_1etsii_1_1app_1_1_minutes_filter.tex <./classes_1_1ull_1_
+1etsii_1_1app_1_1_minutes_filter__inherit__graph.pdf
+
+pdfTeX warning: pdflatex (file ./classes_1_1ull_1_1etsii_1_1app_1_1_minutes_fil
+ter__inherit__graph.pdf): PDF inclusion: multiple pdfs with page group included
+ in a single page
+>
+<classes_1_1ull_1_1etsii_1_1app_1_1_minutes_filter__inherit__graph.pdf, id=1636
+, 197.73875pt x 167.62625pt>
+File: classes_1_1ull_1_1etsii_1_1app_1_1_minutes_filter__inherit__graph.pdf Gra
+phic file (type pdf)
+<use classes_1_1ull_1_1etsii_1_1app_1_1_minutes_filter__inherit__graph.pdf>
+Package pdftex.def Info: classes_1_1ull_1_1etsii_1_1app_1_1_minutes_filter__inh
+erit__graph.pdf  used on input line 10.
+(pdftex.def)             Requested size: 197.0pt x 167.00172pt.
+LaTeX Info: Redefining \. on input line 13.
+LaTeX Info: Redefining \% on input line 13.
+ [28] <./classes_1_1ull_1_1etsii_1_1app_1_1_minutes_filter__coll__graph.pdf
+
+pdfTeX warning: pdflatex (file ./classes_1_1ull_1_1etsii_1_1app_1_1_minutes_fil
+ter__coll__graph.pdf): PDF inclusion: multiple pdfs with page group included in
+ a single page
+>
+<classes_1_1ull_1_1etsii_1_1app_1_1_minutes_filter__coll__graph.pdf, id=1651, 1
+97.73875pt x 167.62625pt>
+File: classes_1_1ull_1_1etsii_1_1app_1_1_minutes_filter__coll__graph.pdf Graphi
+c file (type pdf)
+<use classes_1_1ull_1_1etsii_1_1app_1_1_minutes_filter__coll__graph.pdf>
+Package pdftex.def Info: classes_1_1ull_1_1etsii_1_1app_1_1_minutes_filter__col
+l__graph.pdf  used on input line 20.
+(pdftex.def)             Requested size: 197.0pt x 167.00172pt.
+
 Underfull \hbox (badness 10000) detected at line 39
 [][][]
  []
@@ -1083,232 +1322,546 @@ Underfull \hbox (badness 10000) detected at line 42
 
 LaTeX Info: Redefining \. on input line 56.
 LaTeX Info: Redefining \% on input line 56.
-[11]) (./class_minutes_filter.tex <./class_minutes_filter__inherit__graph.pdf>
-<class_minutes_filter__inherit__graph.pdf, id=641, 153.57375pt x 156.585pt>
-File: class_minutes_filter__inherit__graph.pdf Graphic file (type pdf)
-<use class_minutes_filter__inherit__graph.pdf>
-Package pdftex.def Info: class_minutes_filter__inherit__graph.pdf  used on inpu
-t line 10.
-(pdftex.def)             Requested size: 153.0pt x 156.00879pt.
- <./class_minutes_filter__coll__graph.pdf
+[29]) (./classes_1_1ull_1_1etsii_1_1app_1_1_movie.tex
+Underfull \hbox (badness 10000) detected at line 44
+[][][]
+ []
 
-pdfTeX warning: pdflatex (file ./class_minutes_filter__coll__graph.pdf): PDF in
-clusion: multiple pdfs with page group included in a single page
+
+Underfull \hbox (badness 10000) detected at line 47
+[][][]
+ []
+
+) (./classes_1_1ull_1_1etsii_1_1app_1_1_movie_database.tex)
+(./classes_1_1ull_1_1etsii_1_1app_1_1_movie_runner_average.tex
+LaTeX Info: Redefining \. on input line 9.
+LaTeX Info: Redefining \% on input line 9.
+ [30])
+(./classes_1_1ull_1_1etsii_1_1app_1_1_movie_runner_similar_ratings.tex)
+(./classes_1_1ull_1_1etsii_1_1app_1_1_movie_runner_with_filters.tex)
+(./classedu_1_1duke_1_1_pixel.tex
+LaTeX Info: Redefining \. on input line 35.
+LaTeX Info: Redefining \% on input line 35.
+ [31]
+Underfull \hbox (badness 10000) detected at line 82
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 93
+[][][]
+ []
+
+LaTeX Info: Redefining \. on input line 102.
+LaTeX Info: Redefining \% on input line 102.
+[32]
+Underfull \hbox (badness 10000) detected at line 104
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 115
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 126
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 137
+[][][]
+ []
+
+LaTeX Info: Redefining \. on input line 165.
+LaTeX Info: Redefining \% on input line 165.
+[33]
+Underfull \hbox (badness 10000) detected at line 200
+[][][]
+ []
+
+) (./classes_1_1ull_1_1etsii_1_1app_1_1_plain_rater.tex <./classes_1_1ull_1_1et
+sii_1_1app_1_1_plain_rater__inherit__graph.pdf
+
+pdfTeX warning: pdflatex (file ./classes_1_1ull_1_1etsii_1_1app_1_1_plain_rater
+__inherit__graph.pdf): PDF inclusion: multiple pdfs with page group included in
+ a single page
 >
-<class_minutes_filter__coll__graph.pdf, id=649, 153.57375pt x 156.585pt>
-File: class_minutes_filter__coll__graph.pdf Graphic file (type pdf)
-<use class_minutes_filter__coll__graph.pdf>
-Package pdftex.def Info: class_minutes_filter__coll__graph.pdf  used on input l
-ine 20.
-(pdftex.def)             Requested size: 153.0pt x 156.00879pt.
+<classes_1_1ull_1_1etsii_1_1app_1_1_plain_rater__inherit__graph.pdf, id=1773, 2
+08.78pt x 156.585pt>
+File: classes_1_1ull_1_1etsii_1_1app_1_1_plain_rater__inherit__graph.pdf Graphi
+c file (type pdf)
+<use classes_1_1ull_1_1etsii_1_1app_1_1_plain_rater__inherit__graph.pdf>
+Package pdftex.def Info: classes_1_1ull_1_1etsii_1_1app_1_1_plain_rater__inheri
+t__graph.pdf  used on input line 10.
+(pdftex.def)             Requested size: 208.0pt x 156.00879pt.
+LaTeX Info: Redefining \. on input line 13.
+LaTeX Info: Redefining \% on input line 13.
+ [34] <./classes_1_1ull_1_1etsii_1_1app_1_1_plain_rater__coll__graph.pdf
+
+pdfTeX warning: pdflatex (file ./classes_1_1ull_1_1etsii_1_1app_1_1_plain_rater
+__coll__graph.pdf): PDF inclusion: multiple pdfs with page group included in a 
+single page
+>
+<classes_1_1ull_1_1etsii_1_1app_1_1_plain_rater__coll__graph.pdf, id=1788, 208.
+78pt x 156.585pt>
+File: classes_1_1ull_1_1etsii_1_1app_1_1_plain_rater__coll__graph.pdf Graphic f
+ile (type pdf)
+<use classes_1_1ull_1_1etsii_1_1app_1_1_plain_rater__coll__graph.pdf>
+Package pdftex.def Info: classes_1_1ull_1_1etsii_1_1app_1_1_plain_rater__coll__
+graph.pdf  used on input line 20.
+(pdftex.def)             Requested size: 208.0pt x 156.00879pt.
+LaTeX Info: Redefining \. on input line 62.
+LaTeX Info: Redefining \% on input line 62.
+ [35]) (./classedu_1_1duke_1_1_point.tex
+Underfull \hbox (badness 1024) in paragraph at lines 37--38
+[]\T1/phv/m/n/10 This soft-wa-re is li-cen-sed with an Apa-che 2 li-cen-se, see
+ [][] \T1/pcr/m/n/10 http[]://www.[]apache.[]org/licenses/[]
+ []
+
 LaTeX Info: Redefining \. on input line 39.
 LaTeX Info: Redefining \% on input line 39.
- [12]
+[36]
 Underfull \hbox (badness 10000) detected at line 39
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 42
+Underfull \hbox (badness 10000) detected at line 76
 [][][]
  []
 
-) (./class_movie.tex) (./class_movie_database.tex
-LaTeX Info: Redefining \. on input line 12.
-LaTeX Info: Redefining \% on input line 12.
- [13])
-(./class_movie_runner_average.tex) (./class_movie_runner_similar_ratings.tex)
-(./class_movie_runner_with_filters.tex
-LaTeX Info: Redefining \. on input line 24.
-LaTeX Info: Redefining \% on input line 24.
- [14]) (./class_plain_rater.tex <./class_plain_rater__inherit__graph.pdf
 
-pdfTeX warning: pdflatex (file ./class_plain_rater__inherit__graph.pdf): PDF in
-clusion: multiple pdfs with page group included in a single page
->
-<class_plain_rater__inherit__graph.pdf, id=717, 142.5325pt x 156.585pt>
-File: class_plain_rater__inherit__graph.pdf Graphic file (type pdf)
-<use class_plain_rater__inherit__graph.pdf>
-Package pdftex.def Info: class_plain_rater__inherit__graph.pdf  used on input l
-ine 10.
-(pdftex.def)             Requested size: 142.0pt x 155.99922pt.
- <./class_plain_rater__coll__graph.pdf
+Underfull \hbox (badness 10000) detected at line 87
+[][][]
+ []
 
-pdfTeX warning: pdflatex (file ./class_plain_rater__coll__graph.pdf): PDF inclu
-sion: multiple pdfs with page group included in a single page
->
-<class_plain_rater__coll__graph.pdf, id=725, 142.5325pt x 156.585pt>
-File: class_plain_rater__coll__graph.pdf Graphic file (type pdf)
-<use class_plain_rater__coll__graph.pdf>
-Package pdftex.def Info: class_plain_rater__coll__graph.pdf  used on input line
- 20.
-(pdftex.def)             Requested size: 142.0pt x 155.99922pt.
-LaTeX Info: Redefining \. on input line 35.
-LaTeX Info: Redefining \% on input line 35.
- [15]
-LaTeX Info: Redefining \. on input line 106.
-LaTeX Info: Redefining \% on input line 106.
- [16]) (./interface_rater.tex <./interface_rater__inherit__graph.pdf
 
-pdfTeX warning: pdflatex (file ./interface_rater__inherit__graph.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+Underfull \hbox (badness 10000) detected at line 98
+[][][]
+ []
+
+LaTeX Info: Redefining \. on input line 107.
+LaTeX Info: Redefining \% on input line 107.
+[37]
+Underfull \hbox (badness 10000) detected at line 109
+[][][]
+ []
+
+) (./classedu_1_1duke_1_1_range_resource.tex
+Underfull \hbox (badness 1024) in paragraph at lines 49--50
+[]\T1/phv/m/n/10 This soft-wa-re is li-cen-sed with an Apa-che 2 li-cen-se, see
+ [][] \T1/pcr/m/n/10 http[]://www.[]apache.[]org/licenses/[]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 51
+[][][]
+ []
+
+LaTeX Info: Redefining \. on input line 69.
+LaTeX Info: Redefining \% on input line 69.
+[38]
+LaTeX Info: Redefining \. on input line 126.
+LaTeX Info: Redefining \% on input line 126.
+ [39]
+Underfull \hbox (badness 10000) detected at line 145
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 156
+[][][]
+ []
+
+) (./interfacees_1_1ull_1_1etsii_1_1app_1_1_rater.tex <./interfacees_1_1ull_1_1
+etsii_1_1app_1_1_rater__inherit__graph.pdf
+
+pdfTeX warning: pdflatex (file ./interfacees_1_1ull_1_1etsii_1_1app_1_1_rater__
+inherit__graph.pdf): PDF inclusion: multiple pdfs with page group included in a
+ single page
 >
-<interface_rater__inherit__graph.pdf, id=773, 234.8775pt x 156.585pt>
-File: interface_rater__inherit__graph.pdf Graphic file (type pdf)
-<use interface_rater__inherit__graph.pdf>
-Package pdftex.def Info: interface_rater__inherit__graph.pdf  used on input lin
-e 10.
-(pdftex.def)             Requested size: 234.0pt x 155.99922pt.
-) (./class_rater_database.tex
-LaTeX Info: Redefining \. on input line 21.
-LaTeX Info: Redefining \% on input line 21.
- [17]) (./class_rating.tex <./class_rating__inherit__graph.pdf>
-<class_rating__inherit__graph.pdf, id=797, 194.7275pt x 156.585pt>
-File: class_rating__inherit__graph.pdf Graphic file (type pdf)
-<use class_rating__inherit__graph.pdf>
-Package pdftex.def Info: class_rating__inherit__graph.pdf  used on input line 1
-0.
+<interfacees_1_1ull_1_1etsii_1_1app_1_1_rater__inherit__graph.pdf, id=1895, 345
+.29pt x 167.62625pt>
+File: interfacees_1_1ull_1_1etsii_1_1app_1_1_rater__inherit__graph.pdf Graphic 
+file (type pdf)
+<use interfacees_1_1ull_1_1etsii_1_1app_1_1_rater__inherit__graph.pdf>
+Package pdftex.def Info: interfacees_1_1ull_1_1etsii_1_1app_1_1_rater__inherit_
+_graph.pdf  used on input line 10.
+(pdftex.def)             Requested size: 344.0pt x 167.00172pt.
+LaTeX Info: Redefining \. on input line 25.
+LaTeX Info: Redefining \% on input line 25.
+ [40]) (./classes_1_1ull_1_1etsii_1_1app_1_1_rater_database.tex)
+(./classes_1_1ull_1_1etsii_1_1app_1_1_rating.tex <./classes_1_1ull_1_1etsii_1_1
+app_1_1_rating__inherit__graph.pdf>
+<classes_1_1ull_1_1etsii_1_1app_1_1_rating__inherit__graph.pdf, id=1913, 194.72
+75pt x 156.585pt>
+File: classes_1_1ull_1_1etsii_1_1app_1_1_rating__inherit__graph.pdf Graphic fil
+e (type pdf)
+<use classes_1_1ull_1_1etsii_1_1app_1_1_rating__inherit__graph.pdf>
+Package pdftex.def Info: classes_1_1ull_1_1etsii_1_1app_1_1_rating__inherit__gr
+aph.pdf  used on input line 10.
 (pdftex.def)             Requested size: 194.0pt x 156.0064pt.
- <./class_rating__coll__graph.pdf
+ <./classes_1_1ull_1_1etsii_1_1app_1_1_rating__coll__graph.pdf
 
-pdfTeX warning: pdflatex (file ./class_rating__coll__graph.pdf): PDF inclusion:
- multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex (file ./classes_1_1ull_1_1etsii_1_1app_1_1_rating__col
+l__graph.pdf): PDF inclusion: multiple pdfs with page group included in a singl
+e page
 >
-<class_rating__coll__graph.pdf, id=805, 194.7275pt x 156.585pt>
-File: class_rating__coll__graph.pdf Graphic file (type pdf)
-<use class_rating__coll__graph.pdf>
-Package pdftex.def Info: class_rating__coll__graph.pdf  used on input line 20.
+<classes_1_1ull_1_1etsii_1_1app_1_1_rating__coll__graph.pdf, id=1921, 194.7275p
+t x 156.585pt>
+File: classes_1_1ull_1_1etsii_1_1app_1_1_rating__coll__graph.pdf Graphic file (
+type pdf)
+<use classes_1_1ull_1_1etsii_1_1app_1_1_rating__coll__graph.pdf>
+Package pdftex.def Info: classes_1_1ull_1_1etsii_1_1app_1_1_rating__coll__graph
+.pdf  used on input line 20.
 (pdftex.def)             Requested size: 194.0pt x 156.0064pt.
-LaTeX Info: Redefining \. on input line 40.
-LaTeX Info: Redefining \% on input line 40.
- [18]) (./class_recommendation_runner.tex <./class_recommendation_runner__inher
-it__graph.pdf>
-<class_recommendation_runner__inherit__graph.pdf, id=828, 203.76125pt x 156.585
-pt>
-File: class_recommendation_runner__inherit__graph.pdf Graphic file (type pdf)
-<use class_recommendation_runner__inherit__graph.pdf>
-Package pdftex.def Info: class_recommendation_runner__inherit__graph.pdf  used 
-on input line 10.
-(pdftex.def)             Requested size: 203.0pt x 156.0064pt.
- <./class_recommendation_runner__coll__graph.pdf
+LaTeX Info: Redefining \. on input line 23.
+LaTeX Info: Redefining \% on input line 23.
+ [41]
+Underfull \hbox (badness 10000) detected at line 46
+[][][]
+ []
 
-pdfTeX warning: pdflatex (file ./class_recommendation_runner__coll__graph.pdf):
- PDF inclusion: multiple pdfs with page group included in a single page
+
+Underfull \hbox (badness 10000) detected at line 49
+[][][]
+ []
+
+) (./classes_1_1ull_1_1etsii_1_1app_1_1_recommendation_runner.tex <./classes_1_
+1ull_1_1etsii_1_1app_1_1_recommendation_runner__inherit__graph.pdf>
+<classes_1_1ull_1_1etsii_1_1app_1_1_recommendation_runner__inherit__graph.pdf, 
+id=1952, 238.8925pt x 167.62625pt>
+File: classes_1_1ull_1_1etsii_1_1app_1_1_recommendation_runner__inherit__graph.
+pdf Graphic file (type pdf)
+<use classes_1_1ull_1_1etsii_1_1app_1_1_recommendation_runner__inherit__graph.p
+df>
+Package pdftex.def Info: classes_1_1ull_1_1etsii_1_1app_1_1_recommendation_runn
+er__inherit__graph.pdf  used on input line 10.
+(pdftex.def)             Requested size: 238.0pt x 166.99916pt.
+ <./classes_1_1ull_1_1etsii_1_1app_1_1_recommendation_runner__coll__graph.pdf
+
+pdfTeX warning: pdflatex (file ./classes_1_1ull_1_1etsii_1_1app_1_1_recommendat
+ion_runner__coll__graph.pdf): PDF inclusion: multiple pdfs with page group incl
+uded in a single page
 >
-<class_recommendation_runner__coll__graph.pdf, id=836, 203.76125pt x 156.585pt>
+<classes_1_1ull_1_1etsii_1_1app_1_1_recommendation_runner__coll__graph.pdf, id=
+1960, 238.8925pt x 167.62625pt>
+File: classes_1_1ull_1_1etsii_1_1app_1_1_recommendation_runner__coll__graph.pdf
+ Graphic file (type pdf)
+<use classes_1_1ull_1_1etsii_1_1app_1_1_recommendation_runner__coll__graph.pdf>
 
-File: class_recommendation_runner__coll__graph.pdf Graphic file (type pdf)
-<use class_recommendation_runner__coll__graph.pdf>
-Package pdftex.def Info: class_recommendation_runner__coll__graph.pdf  used on 
-input line 20.
-(pdftex.def)             Requested size: 203.0pt x 156.0064pt.
-LaTeX Info: Redefining \. on input line 39.
-LaTeX Info: Redefining \% on input line 39.
- [19]
-LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <7> not available
-(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 53.
-) (./interface_recommender.tex <./interface_recommender__inherit__graph.pdf>
-<interface_recommender__inherit__graph.pdf, id=872, 203.76125pt x 156.585pt>
-File: interface_recommender__inherit__graph.pdf Graphic file (type pdf)
-<use interface_recommender__inherit__graph.pdf>
-Package pdftex.def Info: interface_recommender__inherit__graph.pdf  used on inp
-ut line 10.
-(pdftex.def)             Requested size: 203.0pt x 156.0064pt.
-LaTeX Info: Redefining \. on input line 13.
-LaTeX Info: Redefining \% on input line 13.
- [20]
-LaTeX Font Info:    Trying to load font information for TS1+phv on input line 2
-7.
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1phv.fd
-File: ts1phv.fd 2001/06/04 scalable font definitions for TS1/phv.
-)
-LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
-(Font)              scaled to size 8.99994pt on input line 27.
+Package pdftex.def Info: classes_1_1ull_1_1etsii_1_1app_1_1_recommendation_runn
+er__coll__graph.pdf  used on input line 20.
+(pdftex.def)             Requested size: 238.0pt x 166.99916pt.
+LaTeX Info: Redefining \. on input line 23.
+LaTeX Info: Redefining \% on input line 23.
+ [42]
+LaTeX Info: Redefining \. on input line 72.
+LaTeX Info: Redefining \% on input line 72.
+ [43]) (./interfacees_1_1ull_1_1etsii_1_1app_1_1_recommender.tex <./interfacees
+_1_1ull_1_1etsii_1_1app_1_1_recommender__inherit__graph.pdf>
+<interfacees_1_1ull_1_1etsii_1_1app_1_1_recommender__inherit__graph.pdf, id=200
+4, 238.8925pt x 167.62625pt>
+File: interfacees_1_1ull_1_1etsii_1_1app_1_1_recommender__inherit__graph.pdf Gr
+aphic file (type pdf)
+<use interfacees_1_1ull_1_1etsii_1_1app_1_1_recommender__inherit__graph.pdf>
+Package pdftex.def Info: interfacees_1_1ull_1_1etsii_1_1app_1_1_recommender__in
+herit__graph.pdf  used on input line 10.
+(pdftex.def)             Requested size: 238.0pt x 166.99916pt.
 LaTeX Info: Redefining \. on input line 51.
 LaTeX Info: Redefining \% on input line 51.
- [21])
-(./class_second_ratings.tex) (./class_third_ratings.tex)
-(./class_true_filter.tex <./class_true_filter__inherit__graph.pdf>
-<class_true_filter__inherit__graph.pdf, id=916, 137.51375pt x 156.585pt>
-File: class_true_filter__inherit__graph.pdf Graphic file (type pdf)
-<use class_true_filter__inherit__graph.pdf>
-Package pdftex.def Info: class_true_filter__inherit__graph.pdf  used on input l
-ine 10.
-(pdftex.def)             Requested size: 137.0pt x 156.01357pt.
+ [44])
+(./classedu_1_1duke_1_1_resource_exception.tex <./classedu_1_1duke_1_1_resource
+_exception__inherit__graph.pdf>
+<classedu_1_1duke_1_1_resource_exception__inherit__graph.pdf, id=2036, 224.84pt
+ x 156.585pt>
+File: classedu_1_1duke_1_1_resource_exception__inherit__graph.pdf Graphic file 
+(type pdf)
+<use classedu_1_1duke_1_1_resource_exception__inherit__graph.pdf>
+Package pdftex.def Info: classedu_1_1duke_1_1_resource_exception__inherit__grap
+h.pdf  used on input line 10.
+(pdftex.def)             Requested size: 224.0pt x 156.0064pt.
+ <./classedu_1_1duke_1_1_resource_exception__coll__graph.pdf
+
+pdfTeX warning: pdflatex (file ./classedu_1_1duke_1_1_resource_exception__coll_
+_graph.pdf): PDF inclusion: multiple pdfs with page group included in a single 
+page
+>
+<classedu_1_1duke_1_1_resource_exception__coll__graph.pdf, id=2044, 224.84pt x 
+156.585pt>
+File: classedu_1_1duke_1_1_resource_exception__coll__graph.pdf Graphic file (ty
+pe pdf)
+<use classedu_1_1duke_1_1_resource_exception__coll__graph.pdf>
+Package pdftex.def Info: classedu_1_1duke_1_1_resource_exception__coll__graph.p
+df  used on input line 20.
+(pdftex.def)             Requested size: 224.0pt x 156.0064pt.
+LaTeX Info: Redefining \. on input line 29.
+LaTeX Info: Redefining \% on input line 29.
+ [45]
+Underfull \hbox (badness 1024) in paragraph at lines 39--40
+[]\T1/phv/m/n/10 This soft-wa-re is li-cen-sed with an Apa-che 2 li-cen-se, see
+ [][] \T1/pcr/m/n/10 http[]://www.[]apache.[]org/licenses/[]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 41
+[][][]
+ []
+
+) (./classes_1_1ull_1_1etsii_1_1app_1_1_second_ratings.tex)
+(./classedu_1_1duke_1_1_shape.tex
+LaTeX Info: Redefining \. on input line 40.
+LaTeX Info: Redefining \% on input line 40.
+ [46]
+Underfull \hbox (badness 1024) in paragraph at lines 59--60
+[]\T1/phv/m/n/10 This soft-wa-re is li-cen-sed with an Apa-che 2 li-cen-se, see
+ [][] \T1/pcr/m/n/10 http[]://www.[]apache.[]org/licenses/[]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 61
+[][][]
+ []
+
+LaTeX Info: Redefining \. on input line 110.
+LaTeX Info: Redefining \% on input line 110.
+[47]
+Underfull \hbox (badness 10000) detected at line 119
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 130
+[][][]
+ []
+
+) (./classes_1_1ull_1_1etsii_1_1app_1_1_simple_service.tex)
+(./classedu_1_1duke_1_1_storage_resource.tex
+LaTeX Info: Redefining \. on input line 34.
+LaTeX Info: Redefining \% on input line 34.
+ [48]
+Underfull \hbox (badness 1024) in paragraph at lines 45--46
+[]\T1/phv/m/n/10 This soft-wa-re is li-cen-sed with an Apa-che 2 li-cen-se, see
+ [][] \T1/pcr/m/n/10 http[]://www.[]apache.[]org/licenses/[]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 47
+[][][]
+ []
+
+LaTeX Info: Redefining \. on input line 99.
+LaTeX Info: Redefining \% on input line 99.
+[49]
+Underfull \hbox (badness 10000) detected at line 107
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 118
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 129
+[][][]
+ []
+
+) (./classes_1_1ull_1_1etsii_1_1app_1_1_third_ratings.tex)
+(./classes_1_1ull_1_1etsii_1_1app_1_1_true_filter.tex <./classes_1_1ull_1_1etsi
+i_1_1app_1_1_true_filter__inherit__graph.pdf
+
+pdfTeX warning: pdflatex (file ./classes_1_1ull_1_1etsii_1_1app_1_1_true_filter
+__inherit__graph.pdf): PDF inclusion: multiple pdfs with page group included in
+ a single page
+>
+<classes_1_1ull_1_1etsii_1_1app_1_1_true_filter__inherit__graph.pdf, id=2168, 2
+03.76125pt x 156.585pt>
+File: classes_1_1ull_1_1etsii_1_1app_1_1_true_filter__inherit__graph.pdf Graphi
+c file (type pdf)
+<use classes_1_1ull_1_1etsii_1_1app_1_1_true_filter__inherit__graph.pdf>
+Package pdftex.def Info: classes_1_1ull_1_1etsii_1_1app_1_1_true_filter__inheri
+t__graph.pdf  used on input line 10.
+(pdftex.def)             Requested size: 203.0pt x 156.0064pt.
 LaTeX Info: Redefining \. on input line 13.
 LaTeX Info: Redefining \% on input line 13.
- [22] <./class_true_filter__coll__graph.pdf
+ [50] <./classes_1_1ull_1_1etsii_1_1app_1_1_true_filter__coll__graph.pdf
 
-pdfTeX warning: pdflatex (file ./class_true_filter__coll__graph.pdf): PDF inclu
-sion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex (file ./classes_1_1ull_1_1etsii_1_1app_1_1_true_filter
+__coll__graph.pdf): PDF inclusion: multiple pdfs with page group included in a 
+single page
 >
-<class_true_filter__coll__graph.pdf, id=942, 137.51375pt x 156.585pt>
-File: class_true_filter__coll__graph.pdf Graphic file (type pdf)
-<use class_true_filter__coll__graph.pdf>
-Package pdftex.def Info: class_true_filter__coll__graph.pdf  used on input line
- 20.
-(pdftex.def)             Requested size: 137.0pt x 156.01357pt.
-) (./class_year_after_filter.tex <./class_year_after_filter__inherit__graph.pdf
+<classes_1_1ull_1_1etsii_1_1app_1_1_true_filter__coll__graph.pdf, id=2186, 203.
+76125pt x 156.585pt>
+File: classes_1_1ull_1_1etsii_1_1app_1_1_true_filter__coll__graph.pdf Graphic f
+ile (type pdf)
+<use classes_1_1ull_1_1etsii_1_1app_1_1_true_filter__coll__graph.pdf>
+Package pdftex.def Info: classes_1_1ull_1_1etsii_1_1app_1_1_true_filter__coll__
+graph.pdf  used on input line 20.
+(pdftex.def)             Requested size: 203.0pt x 156.0064pt.
+
+Underfull \hbox (badness 10000) detected at line 33
+[][][]
+ []
 
 
-pdfTeX warning: pdflatex (file ./class_year_after_filter__inherit__graph.pdf): 
-PDF inclusion: multiple pdfs with page group included in a single page
+Underfull \hbox (badness 10000) detected at line 36
+[][][]
+ []
+
+LaTeX Info: Redefining \. on input line 54.
+LaTeX Info: Redefining \% on input line 54.
+[51]) (./classedu_1_1duke_1_1_u_r_l_resource.tex
+Overfull \hbox (41.55533pt too wide) in paragraph at lines 44--44
+[][] \T1/pcr/m/n/9 ur = new []("http://www.dukelearntoprogram.com/course2/java/
+food.csv");[] 
+ []
+
+
+Underfull \hbox (badness 1024) in paragraph at lines 53--54
+[]\T1/phv/m/n/10 This soft-wa-re is li-cen-sed with an Apa-che 2 li-cen-se, see
+ [][] \T1/pcr/m/n/10 http[]://www.[]apache.[]org/licenses/[]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 55
+[][][]
+ []
+
+LaTeX Info: Redefining \. on input line 75.
+LaTeX Info: Redefining \% on input line 75.
+[52]
+Underfull \hbox (badness 10000) detected at line 92
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 108
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 121
+[][][]
+ []
+
+LaTeX Info: Redefining \. on input line 134.
+LaTeX Info: Redefining \% on input line 134.
+[53]
+Underfull \hbox (badness 10000) detected at line 144
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 169
+[][][]
+ []
+
+LaTeX Info: Redefining \. on input line 187.
+LaTeX Info: Redefining \% on input line 187.
+[54]
+Underfull \hbox (badness 10000) detected at line 187
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 198
+[][][]
+ []
+
+) (./classes_1_1ull_1_1etsii_1_1app_1_1_year_after_filter.tex <./classes_1_1ull
+_1_1etsii_1_1app_1_1_year_after_filter__inherit__graph.pdf
+
+pdfTeX warning: pdflatex (file ./classes_1_1ull_1_1etsii_1_1app_1_1_year_after_
+filter__inherit__graph.pdf): PDF inclusion: multiple pdfs with page group inclu
+ded in a single page
 >
-<class_year_after_filter__inherit__graph.pdf, id=952, 159.59625pt x 156.585pt>
-File: class_year_after_filter__inherit__graph.pdf Graphic file (type pdf)
-<use class_year_after_filter__inherit__graph.pdf>
-Package pdftex.def Info: class_year_after_filter__inherit__graph.pdf  used on i
-nput line 10.
-(pdftex.def)             Requested size: 159.0pt x 156.00162pt.
-LaTeX Info: Redefining \. on input line 13.
-LaTeX Info: Redefining \% on input line 13.
- [23] <./class_year_after_filter__coll__graph.pdf>
-<class_year_after_filter__coll__graph.pdf, id=969, 159.59625pt x 156.585pt>
-File: class_year_after_filter__coll__graph.pdf Graphic file (type pdf)
-<use class_year_after_filter__coll__graph.pdf>
-Package pdftex.def Info: class_year_after_filter__coll__graph.pdf  used on inpu
-t line 20.
-(pdftex.def)             Requested size: 159.0pt x 156.00162pt.
+<classes_1_1ull_1_1etsii_1_1app_1_1_year_after_filter__inherit__graph.pdf, id=2
+255, 203.76125pt x 167.62625pt>
+File: classes_1_1ull_1_1etsii_1_1app_1_1_year_after_filter__inherit__graph.pdf 
+Graphic file (type pdf)
+<use classes_1_1ull_1_1etsii_1_1app_1_1_year_after_filter__inherit__graph.pdf>
+Package pdftex.def Info: classes_1_1ull_1_1etsii_1_1app_1_1_year_after_filter__
+inherit__graph.pdf  used on input line 10.
+(pdftex.def)             Requested size: 203.0pt x 167.00684pt.
+ <./classes_1_1ull_1_1etsii_1_1app_1_1_year_after_filter__coll__graph.pdf
+
+pdfTeX warning: pdflatex (file ./classes_1_1ull_1_1etsii_1_1app_1_1_year_after_
+filter__coll__graph.pdf): PDF inclusion: multiple pdfs with page group included
+ in a single page
+>
+<classes_1_1ull_1_1etsii_1_1app_1_1_year_after_filter__coll__graph.pdf, id=2263
+, 203.76125pt x 167.62625pt>
+File: classes_1_1ull_1_1etsii_1_1app_1_1_year_after_filter__coll__graph.pdf Gra
+phic file (type pdf)
+<use classes_1_1ull_1_1etsii_1_1app_1_1_year_after_filter__coll__graph.pdf>
+Package pdftex.def Info: classes_1_1ull_1_1etsii_1_1app_1_1_year_after_filter__
+coll__graph.pdf  used on input line 20.
+(pdftex.def)             Requested size: 203.0pt x 167.00684pt.
+LaTeX Info: Redefining \. on input line 36.
+LaTeX Info: Redefining \% on input line 36.
+ [55]
+Underfull \hbox (badness 10000) detected at line 36
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 39
+[][][]
+ []
+
 )
-LaTeX Info: Redefining \. on input line 209.
-LaTeX Info: Redefining \% on input line 209.
- [24] (./refman.ind
-[25
+LaTeX Info: Redefining \. on input line 228.
+LaTeX Info: Redefining \% on input line 228.
+ [56] (./refman.ind [57
 
 
+
+]
+LaTeX Info: Redefining \. on input line 247.
+LaTeX Info: Redefining \% on input line 247.
+ [58]
+LaTeX Info: Redefining \. on input line 298.
+LaTeX Info: Redefining \% on input line 298.
+ [59
 
 ])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 216.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 216.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 235.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 235.
  (./refman.aux
 LaTeX Info: Redefining \. on input line 26.
 LaTeX Info: Redefining \% on input line 26.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 216.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 216.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 235.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 235.
 Package rerunfilecheck Info: File `refman.out' has not changed.
-(rerunfilecheck)             Checksum: 10027F4FB54D2B056A3509BD43B8F8CC;15309.
+(rerunfilecheck)             Checksum: 54EB74DA0E2EDD92522AB576B38E6AAB;46798.
  ) 
 Here is how much of TeX's memory you used:
- 18541 strings out of 481239
- 282804 string characters out of 5920376
- 573068 words of memory out of 5000000
- 33147 multiletter control sequences out of 15000+600000
- 589973 words of font info for 91 fonts, out of 8000000 for 9000
+ 19275 strings out of 481239
+ 318385 string characters out of 5920376
+ 622030 words of memory out of 5000000
+ 33497 multiletter control sequences out of 15000+600000
+ 594883 words of font info for 98 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,16n,96p,891b,676s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,16n,96p,891b,793s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/u
-rw/courier/ucrro8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/
-uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8ac.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on refman.pdf (29 pages, 372775 bytes).
+f-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
+w/courier/ucrb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucr
+r8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/urw/helvetic/uhvb8ac.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/urw/helvetic/uhvro8a.pfb>
+Output written on refman.pdf (67 pages, 573498 bytes).
 PDF statistics:
- 1150 PDF objects out of 1200 (max. 8388607)
- 1019 compressed objects within 11 object streams
- 272 named destinations out of 1000 (max. 500000)
- 636 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2680 PDF objects out of 2984 (max. 8388607)
+ 2479 compressed objects within 25 object streams
+ 624 named destinations out of 1000 (max. 500000)
+ 1718 words of extra memory for PDF output out of 10000 (max. 10000000)
 

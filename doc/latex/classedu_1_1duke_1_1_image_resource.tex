@@ -1,0 +1,292 @@
+\hypertarget{classedu_1_1duke_1_1_image_resource}{}\doxysection{Referencia de la Clase edu.\+duke.\+Image\+Resource}
+\label{classedu_1_1duke_1_1_image_resource}\index{edu.duke.ImageResource@{edu.duke.ImageResource}}
+\doxysubsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classedu_1_1duke_1_1_image_resource_a33af371a101e8d364ab27cc63832c7e2}{Image\+Resource}} ()
+\item 
+\mbox{\hyperlink{classedu_1_1duke_1_1_image_resource_a02c2ccfa2332f8c851faf8cffd2f62c8}{Image\+Resource}} (int width, int height)
+\item 
+\mbox{\hyperlink{classedu_1_1duke_1_1_image_resource_aab6b25ba8b3b5179b4b508f21e869eda}{Image\+Resource}} (String file\+Name)
+\item 
+\mbox{\hyperlink{classedu_1_1duke_1_1_image_resource_a8d8dc8f62f84ba82809baa5d2071dfd5}{Image\+Resource}} (File file)
+\item 
+\mbox{\hyperlink{classedu_1_1duke_1_1_image_resource_af25b1e060ef36478e6edc737a88592b9}{Image\+Resource}} (\mbox{\hyperlink{classedu_1_1duke_1_1_image_resource}{Image\+Resource}} other)
+\item 
+int \mbox{\hyperlink{classedu_1_1duke_1_1_image_resource_a20c1b1933689e95c81fd1dd945747cdf}{get\+Width}} ()
+\item 
+int \mbox{\hyperlink{classedu_1_1duke_1_1_image_resource_a5b357ad9bed9737ed954a0518d249afc}{get\+Height}} ()
+\item 
+Iterable$<$ \mbox{\hyperlink{classedu_1_1duke_1_1_pixel}{Pixel}} $>$ \mbox{\hyperlink{classedu_1_1duke_1_1_image_resource_a028a75b5cd01de2347993698d0234ba5}{pixels}} ()
+\item 
+void \mbox{\hyperlink{classedu_1_1duke_1_1_image_resource_ae110736d6715dc3c144027ad747b8895}{draw}} ()
+\item 
+String \mbox{\hyperlink{classedu_1_1duke_1_1_image_resource_aa8e1f352109451b45ce89b6654596521}{get\+File\+Name}} ()
+\item 
+void \mbox{\hyperlink{classedu_1_1duke_1_1_image_resource_a9544c13a9d5bf5162b1dd53bdad1ec94}{set\+File\+Name}} (String name)
+\item 
+\mbox{\hyperlink{classedu_1_1duke_1_1_pixel}{Pixel}} \mbox{\hyperlink{classedu_1_1duke_1_1_image_resource_a4f6cf6a7241fcd90d577c878fcea2936}{get\+Pixel}} (int x, int y)
+\item 
+void \mbox{\hyperlink{classedu_1_1duke_1_1_image_resource_ab7213c7e20d0bf9c1579812a5f5a4a17}{set\+Pixel}} (int x, int y, \mbox{\hyperlink{classedu_1_1duke_1_1_pixel}{Pixel}} p)
+\item 
+String \mbox{\hyperlink{classedu_1_1duke_1_1_image_resource_affeb34e42681ce427b1d87f36ad91f10}{to\+String}} ()
+\item 
+void \mbox{\hyperlink{classedu_1_1duke_1_1_image_resource_a25a219d244b19a622bf2e1dbb5e33cb6}{save}} ()
+\item 
+void \mbox{\hyperlink{classedu_1_1duke_1_1_image_resource_ae7b2eabbda4843288e49546d4d5d532d}{save\+As}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Descripción detallada}
+The {\ttfamily \mbox{\hyperlink{classedu_1_1duke_1_1_image_resource}{Image\+Resource}}} class represents an image as a grid of {\ttfamily \mbox{\hyperlink{classedu_1_1duke_1_1_pixel}{Pixel}}} objects and allows access to all of them, using the method {\ttfamily pixels}. These pixels can then be iterated over using a {\ttfamily for} loop.
+
+Note, no changes made to the pixels in this image affect the original image opened unless you use the method {\ttfamily save}.
+
+Example usage\+:
+
+
+\begin{DoxyPre}
+\mbox{\hyperlink{classedu_1_1duke_1_1_image_resource}{ImageResource}} image = new \mbox{\hyperlink{classedu_1_1duke_1_1_image_resource_a33af371a101e8d364ab27cc63832c7e2}{ImageResource()}};
+for (\mbox{\hyperlink{classedu_1_1duke_1_1_pixel}{Pixel}} p : image.pixels()) \{
+    int red = p.getRed();
+    int green = p.getGreen();
+    int blue = p.getBlue();
+    int average = (red + green + blue) / 3;
+    p.setRed(average);
+    p.setGreen(average);
+    p.setBlue(average);
+\}
+image.draw();
+\end{DoxyPre}
+
+
+This is open-\/source software released under the terms of the GPL (\href{http://www.gnu.org/licenses/gpl.html}{\texttt{ http\+://www.\+gnu.\+org/licenses/gpl.\+html}}). 
+
+\doxysubsection{Documentación del constructor y destructor}
+\mbox{\Hypertarget{classedu_1_1duke_1_1_image_resource_a33af371a101e8d364ab27cc63832c7e2}\label{classedu_1_1duke_1_1_image_resource_a33af371a101e8d364ab27cc63832c7e2}} 
+\index{edu.duke.ImageResource@{edu.duke.ImageResource}!ImageResource@{ImageResource}}
+\index{ImageResource@{ImageResource}!edu.duke.ImageResource@{edu.duke.ImageResource}}
+\doxysubsubsection{\texorpdfstring{ImageResource()}{ImageResource()}\hspace{0.1cm}{\footnotesize\ttfamily [1/5]}}
+{\footnotesize\ttfamily edu.\+duke.\+Image\+Resource.\+Image\+Resource (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Create an {\ttfamily \mbox{\hyperlink{classedu_1_1duke_1_1_image_resource}{Image\+Resource}}} object that represents the file chosen by the user using a file selection dialog box.
+
+
+\begin{DoxyExceptions}{Excepciones}
+{\em exception} & if no file is selected by the user \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classedu_1_1duke_1_1_image_resource_a02c2ccfa2332f8c851faf8cffd2f62c8}\label{classedu_1_1duke_1_1_image_resource_a02c2ccfa2332f8c851faf8cffd2f62c8}} 
+\index{edu.duke.ImageResource@{edu.duke.ImageResource}!ImageResource@{ImageResource}}
+\index{ImageResource@{ImageResource}!edu.duke.ImageResource@{edu.duke.ImageResource}}
+\doxysubsubsection{\texorpdfstring{ImageResource()}{ImageResource()}\hspace{0.1cm}{\footnotesize\ttfamily [2/5]}}
+{\footnotesize\ttfamily edu.\+duke.\+Image\+Resource.\+Image\+Resource (\begin{DoxyParamCaption}\item[{int}]{width,  }\item[{int}]{height }\end{DoxyParamCaption})}
+
+Create an {\ttfamily \mbox{\hyperlink{classedu_1_1duke_1_1_image_resource}{Image\+Resource}}} object whose size is the width and height passed as parameters and whose pixels are all black.
+
+
+\begin{DoxyParams}{Parámetros}
+{\em width} & the width of the image in pixels \\
+\hline
+{\em height} & the height of the image in pixels \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Excepciones}
+{\em exception} & if the width or height are not positive values \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classedu_1_1duke_1_1_image_resource_aab6b25ba8b3b5179b4b508f21e869eda}\label{classedu_1_1duke_1_1_image_resource_aab6b25ba8b3b5179b4b508f21e869eda}} 
+\index{edu.duke.ImageResource@{edu.duke.ImageResource}!ImageResource@{ImageResource}}
+\index{ImageResource@{ImageResource}!edu.duke.ImageResource@{edu.duke.ImageResource}}
+\doxysubsubsection{\texorpdfstring{ImageResource()}{ImageResource()}\hspace{0.1cm}{\footnotesize\ttfamily [3/5]}}
+{\footnotesize\ttfamily edu.\+duke.\+Image\+Resource.\+Image\+Resource (\begin{DoxyParamCaption}\item[{String}]{file\+Name }\end{DoxyParamCaption})}
+
+Create an {\ttfamily \mbox{\hyperlink{classedu_1_1duke_1_1_image_resource}{Image\+Resource}}} object from the file name passed as a parameter.
+
+
+\begin{DoxyParams}{Parámetros}
+{\em file\+Name} & the name of the file \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Excepciones}
+{\em exception} & if the file cannot be accessed or is not in an image format \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classedu_1_1duke_1_1_image_resource_a8d8dc8f62f84ba82809baa5d2071dfd5}\label{classedu_1_1duke_1_1_image_resource_a8d8dc8f62f84ba82809baa5d2071dfd5}} 
+\index{edu.duke.ImageResource@{edu.duke.ImageResource}!ImageResource@{ImageResource}}
+\index{ImageResource@{ImageResource}!edu.duke.ImageResource@{edu.duke.ImageResource}}
+\doxysubsubsection{\texorpdfstring{ImageResource()}{ImageResource()}\hspace{0.1cm}{\footnotesize\ttfamily [4/5]}}
+{\footnotesize\ttfamily edu.\+duke.\+Image\+Resource.\+Image\+Resource (\begin{DoxyParamCaption}\item[{File}]{file }\end{DoxyParamCaption})}
+
+Create an {\ttfamily \mbox{\hyperlink{classedu_1_1duke_1_1_image_resource}{Image\+Resource}}} object from a file given as a parameter.
+
+
+\begin{DoxyParams}{Parámetros}
+{\em file} & the file representing an image \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Excepciones}
+{\em exception} & if the file cannot be accessed or is not in an image format \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classedu_1_1duke_1_1_image_resource_af25b1e060ef36478e6edc737a88592b9}\label{classedu_1_1duke_1_1_image_resource_af25b1e060ef36478e6edc737a88592b9}} 
+\index{edu.duke.ImageResource@{edu.duke.ImageResource}!ImageResource@{ImageResource}}
+\index{ImageResource@{ImageResource}!edu.duke.ImageResource@{edu.duke.ImageResource}}
+\doxysubsubsection{\texorpdfstring{ImageResource()}{ImageResource()}\hspace{0.1cm}{\footnotesize\ttfamily [5/5]}}
+{\footnotesize\ttfamily edu.\+duke.\+Image\+Resource.\+Image\+Resource (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classedu_1_1duke_1_1_image_resource}{Image\+Resource}}}]{other }\end{DoxyParamCaption})}
+
+Create an {\ttfamily \mbox{\hyperlink{classedu_1_1duke_1_1_image_resource}{Image\+Resource}}} object that is a copy of another image.
+
+
+\begin{DoxyParams}{Parámetros}
+{\em other} & the original image being copied \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Documentación de las funciones miembro}
+\mbox{\Hypertarget{classedu_1_1duke_1_1_image_resource_ae110736d6715dc3c144027ad747b8895}\label{classedu_1_1duke_1_1_image_resource_ae110736d6715dc3c144027ad747b8895}} 
+\index{edu.duke.ImageResource@{edu.duke.ImageResource}!draw@{draw}}
+\index{draw@{draw}!edu.duke.ImageResource@{edu.duke.ImageResource}}
+\doxysubsubsection{\texorpdfstring{draw()}{draw()}}
+{\footnotesize\ttfamily void edu.\+duke.\+Image\+Resource.\+draw (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Displays this image in a separate window. \mbox{\Hypertarget{classedu_1_1duke_1_1_image_resource_aa8e1f352109451b45ce89b6654596521}\label{classedu_1_1duke_1_1_image_resource_aa8e1f352109451b45ce89b6654596521}} 
+\index{edu.duke.ImageResource@{edu.duke.ImageResource}!getFileName@{getFileName}}
+\index{getFileName@{getFileName}!edu.duke.ImageResource@{edu.duke.ImageResource}}
+\doxysubsubsection{\texorpdfstring{getFileName()}{getFileName()}}
+{\footnotesize\ttfamily String edu.\+duke.\+Image\+Resource.\+get\+File\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the file name associated with this image.
+
+\begin{DoxyReturn}{Devuelve}
+the name of the file used to create this image or an empty string if it was created as a sized image 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classedu_1_1duke_1_1_image_resource_a5b357ad9bed9737ed954a0518d249afc}\label{classedu_1_1duke_1_1_image_resource_a5b357ad9bed9737ed954a0518d249afc}} 
+\index{edu.duke.ImageResource@{edu.duke.ImageResource}!getHeight@{getHeight}}
+\index{getHeight@{getHeight}!edu.duke.ImageResource@{edu.duke.ImageResource}}
+\doxysubsubsection{\texorpdfstring{getHeight()}{getHeight()}}
+{\footnotesize\ttfamily int edu.\+duke.\+Image\+Resource.\+get\+Height (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the height of the image in pixels.
+
+\begin{DoxyReturn}{Devuelve}
+the image\textquotesingle{}s height in pixels 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classedu_1_1duke_1_1_image_resource_a4f6cf6a7241fcd90d577c878fcea2936}\label{classedu_1_1duke_1_1_image_resource_a4f6cf6a7241fcd90d577c878fcea2936}} 
+\index{edu.duke.ImageResource@{edu.duke.ImageResource}!getPixel@{getPixel}}
+\index{getPixel@{getPixel}!edu.duke.ImageResource@{edu.duke.ImageResource}}
+\doxysubsubsection{\texorpdfstring{getPixel()}{getPixel()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classedu_1_1duke_1_1_pixel}{Pixel}} edu.\+duke.\+Image\+Resource.\+get\+Pixel (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})}
+
+Returns the pixel at the (x, y) coordinates passed as a parameter.
+
+
+\begin{DoxyParams}{Parámetros}
+{\em x} & the column position of the pixel \\
+\hline
+{\em y} & the row position of the pixel \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+the \mbox{\hyperlink{classedu_1_1duke_1_1_pixel}{Pixel}} at the given (x, y) coordinates 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classedu_1_1duke_1_1_image_resource_a20c1b1933689e95c81fd1dd945747cdf}\label{classedu_1_1duke_1_1_image_resource_a20c1b1933689e95c81fd1dd945747cdf}} 
+\index{edu.duke.ImageResource@{edu.duke.ImageResource}!getWidth@{getWidth}}
+\index{getWidth@{getWidth}!edu.duke.ImageResource@{edu.duke.ImageResource}}
+\doxysubsubsection{\texorpdfstring{getWidth()}{getWidth()}}
+{\footnotesize\ttfamily int edu.\+duke.\+Image\+Resource.\+get\+Width (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the width of the image in pixels.
+
+\begin{DoxyReturn}{Devuelve}
+the image\textquotesingle{}s width in pixels 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classedu_1_1duke_1_1_image_resource_a028a75b5cd01de2347993698d0234ba5}\label{classedu_1_1duke_1_1_image_resource_a028a75b5cd01de2347993698d0234ba5}} 
+\index{edu.duke.ImageResource@{edu.duke.ImageResource}!pixels@{pixels}}
+\index{pixels@{pixels}!edu.duke.ImageResource@{edu.duke.ImageResource}}
+\doxysubsubsection{\texorpdfstring{pixels()}{pixels()}}
+{\footnotesize\ttfamily Iterable$<$ \mbox{\hyperlink{classedu_1_1duke_1_1_pixel}{Pixel}} $>$ edu.\+duke.\+Image\+Resource.\+pixels (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Allow access to this image one pixel at a time.
+
+\begin{DoxyReturn}{Devuelve}
+an {\ttfamily Iterable} that will allow access to each pixel in this image 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classedu_1_1duke_1_1_image_resource_a25a219d244b19a622bf2e1dbb5e33cb6}\label{classedu_1_1duke_1_1_image_resource_a25a219d244b19a622bf2e1dbb5e33cb6}} 
+\index{edu.duke.ImageResource@{edu.duke.ImageResource}!save@{save}}
+\index{save@{save}!edu.duke.ImageResource@{edu.duke.ImageResource}}
+\doxysubsubsection{\texorpdfstring{save()}{save()}}
+{\footnotesize\ttfamily void edu.\+duke.\+Image\+Resource.\+save (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Saves the image as a JPEG using its current file name or opens a file selection dialog box to allow the user to choose a name if no file name set (for example if this image was created as a blank sized image).
+
+
+\begin{DoxyExceptions}{Excepciones}
+{\em exception} & if the current filename cannot be accessed for saving \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classedu_1_1duke_1_1_image_resource_ae7b2eabbda4843288e49546d4d5d532d}\label{classedu_1_1duke_1_1_image_resource_ae7b2eabbda4843288e49546d4d5d532d}} 
+\index{edu.duke.ImageResource@{edu.duke.ImageResource}!saveAs@{saveAs}}
+\index{saveAs@{saveAs}!edu.duke.ImageResource@{edu.duke.ImageResource}}
+\doxysubsubsection{\texorpdfstring{saveAs()}{saveAs()}}
+{\footnotesize\ttfamily void edu.\+duke.\+Image\+Resource.\+save\+As (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Saves the image as a JPEG by opening a file selection dialog box to allow the user to choose the new name for the file.
+
+
+\begin{DoxyExceptions}{Excepciones}
+{\em exception} & if no file is selected by the user \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classedu_1_1duke_1_1_image_resource_a9544c13a9d5bf5162b1dd53bdad1ec94}\label{classedu_1_1duke_1_1_image_resource_a9544c13a9d5bf5162b1dd53bdad1ec94}} 
+\index{edu.duke.ImageResource@{edu.duke.ImageResource}!setFileName@{setFileName}}
+\index{setFileName@{setFileName}!edu.duke.ImageResource@{edu.duke.ImageResource}}
+\doxysubsubsection{\texorpdfstring{setFileName()}{setFileName()}}
+{\footnotesize\ttfamily void edu.\+duke.\+Image\+Resource.\+set\+File\+Name (\begin{DoxyParamCaption}\item[{String}]{name }\end{DoxyParamCaption})}
+
+Resets the file name associated with this image.
+
+Useful, for example, when saving the results of changes to this image in a different file than the original.
+
+
+\begin{DoxyParams}{Parámetros}
+{\em name} & the new name for the file \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classedu_1_1duke_1_1_image_resource_ab7213c7e20d0bf9c1579812a5f5a4a17}\label{classedu_1_1duke_1_1_image_resource_ab7213c7e20d0bf9c1579812a5f5a4a17}} 
+\index{edu.duke.ImageResource@{edu.duke.ImageResource}!setPixel@{setPixel}}
+\index{setPixel@{setPixel}!edu.duke.ImageResource@{edu.duke.ImageResource}}
+\doxysubsubsection{\texorpdfstring{setPixel()}{setPixel()}}
+{\footnotesize\ttfamily void edu.\+duke.\+Image\+Resource.\+set\+Pixel (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y,  }\item[{\mbox{\hyperlink{classedu_1_1duke_1_1_pixel}{Pixel}}}]{p }\end{DoxyParamCaption})}
+
+Resets the pixel at the given (x, y) coordinates but does not redraw it.
+
+
+\begin{DoxyParams}{Parámetros}
+{\em x} & the column position of the pixel \\
+\hline
+{\em y} & the row position of the pixel \\
+\hline
+{\em p} & the new pixel values to use \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classedu_1_1duke_1_1_image_resource_affeb34e42681ce427b1d87f36ad91f10}\label{classedu_1_1duke_1_1_image_resource_affeb34e42681ce427b1d87f36ad91f10}} 
+\index{edu.duke.ImageResource@{edu.duke.ImageResource}!toString@{toString}}
+\index{toString@{toString}!edu.duke.ImageResource@{edu.duke.ImageResource}}
+\doxysubsubsection{\texorpdfstring{toString()}{toString()}}
+{\footnotesize\ttfamily String edu.\+duke.\+Image\+Resource.\+to\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns a string representation of the image (file name, width, and height).
+
+\begin{DoxyReturn}{Devuelve}
+a string representation of the image 
+\end{DoxyReturn}
+
+
+La documentación para esta clase fue generada a partir del siguiente fichero\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/edu/duke/Image\+Resource.\+java\end{DoxyCompactItemize}

@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['printrecommendationsfor_0',['printRecommendationsFor',['../class_recommendation_runner.html#ac216526072926d17c7522e7af489581c',1,'RecommendationRunner.printRecommendationsFor()'],['../interface_recommender.html#ab11eabde261256c600435497412815b4',1,'Recommender.printRecommendationsFor()']]]
+  ['clear_0',['clear',['../classedu_1_1duke_1_1_storage_resource.html#a005a27e693cf29b94fab3d90d503c479',1,'edu::duke::StorageResource']]],
+  ['contains_1',['contains',['../classedu_1_1duke_1_1_storage_resource.html#afa6adececadd9b9ca0a8a857437162c0',1,'edu::duke::StorageResource']]]
 ];

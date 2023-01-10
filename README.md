@@ -1,11 +1,11 @@
-# Sistema Recomendador de peículas
+# Sistema Recomendador de películas
 
 ## Contenidos
 - [Proyecto](#proyecto)
 - [¿Qué es un sistema recomendador de películas?](#qué-es-un-sistema-recomendador-de-películas)
-- [Acerca del proyecto:](#acerca-del-proyecto)
+- [Acerca del proyecto](#acerca-del-proyecto)
 - [Modo de uso](#modo-de-uso)
-- [Hitos:](#hitos)
+- [Hitos](#hitos)
 - [Autores](#autores)
 
 ---

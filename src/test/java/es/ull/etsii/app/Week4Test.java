@@ -5,7 +5,7 @@ import es.ull.etsii.app.Week4;
 import org.junit.jupiter.api.*;
 import static org.junit.jupiter.api.Assertions.*;
 
-public class Week4Test {
+class Week4Test {
 	
 	FourthRatings fourthRatings;
 	Rater meRater;
@@ -48,7 +48,7 @@ public class Week4Test {
 	
 	@Test
 	@DisplayName("Test illegal arguments for addRating method")
-	void testFlightNumberInvalidFormat() {
+	void testAddRatingInvalidArguments() {
 		assertThrows(IllegalArgumentException.class, () -> {  // line 22-24 EfficientRater
 			meRater.addRating("1234", -1.0);
 			meRater.addRating(null, 5.0);

@@ -121,6 +121,15 @@
                 <plugin>
                     <artifactId>maven-jar-plugin</artifactId>
                     <version>3.2.0</version>
+                    <configuration>
+                      <archive>
+                      <manifest>
+                        <mainClass>
+                        es.ull.etsii.app.Week4
+                      </mainClass>
+                      </manifest>
+                    </archive>
+                  </configuration>
                 </plugin>
                 <plugin>
                     <artifactId>maven-install-plugin</artifactId>

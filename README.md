@@ -31,7 +31,7 @@ A modo de introducción, se pueden destacar las herramientas empleadas de cara a
 ---
 
 ## Modo de uso
-Para poder ejecutar el proyecto, se debe tener instalado Maven y Java 8 . Para ello, se recomienda seguir los siguientes pasos:
+Para poder ejecutar el proyecto, se debe tener instalado Maven y se recomienda tener la versión de Java JDK 11 . Para ello, se recomienda seguir los siguientes pasos:
 
 
 1. Clonar el repositorio en local
